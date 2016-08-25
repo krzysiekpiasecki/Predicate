@@ -1,6 +1,6 @@
 {
   "name": "pfunctor/predicate",
-  "description": "A functor that accepts input arguments and returns boolean value",
+  "description": "A functor called the predicate that accepts input arguments and returns boolean value",
   "keywords": [
     "functor",
     "function",

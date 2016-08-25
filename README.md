@@ -1,8 +1,8 @@
 # __Predicate__
 
-A functor that accepts input arguments and returns boolean value
+A functor called the predicate that accepts input arguments and returns boolean value
 
-![img](https://krzysiekpiasecki.github.io/Predicate/img/theme.png)
+![img](https://pfunctor.github.io/predicate/img/theme.png)
 
 <br>
 
@@ -15,15 +15,13 @@ A predicate is commonly understood to be a Boolean-valued function P: X→ {true
 
 ### Documentation
 
-Are you interested in more details? [Here's the complete documentation of API](https://krzysiekpiasecki.github.io/Predicate/api/Functor.html).
-
-You can also [read more on Wiki](https://github.com/krzysiekpiasecki/Predicate/wiki).
+Are you interested in more details? [Here's the complete documentation of API](https://pfunctor.github.io/predicate/api/Functor/Predicate.html).
 
 <br>
 
 ### Install
 
-Predicate is distributed via [Composer](https://getcomposer.org) and [Packagist](https://packagist.org/packages/predicate/predicate).
+Predicate is distributed via [Composer](https://getcomposer.org) and [Packagist](https://packagist.org/packages/pfunctor/predicate).
 
 <br>
 
