@@ -1,4 +1,4 @@
-<?php declare (strict_types = 1);
+<?php declare(strict_types=1);
 
 /*
  * For the full copyright and license information, please view the LICENSE
@@ -36,8 +36,7 @@ class FalsePTest extends \PHPUnit_Framework_TestCase
      */
     public function testInvokeInnerEvaluation()
     {
-        $p = new FalseP(new class implements PredicateInterface
-        {
+        $p = new FalseP(new class implements PredicateInterface {
             public function __invoke(...$subject): bool
             {
                 throw new \RuntimeException('Fake exception');

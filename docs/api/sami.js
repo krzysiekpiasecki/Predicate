@@ -36,7 +36,7 @@
                                                         {"type": "Method", "fromName": "Functor\\Predicate\\DualP", "fromLink": "Functor/Predicate/DualP.html", "link": "Functor/Predicate/DualP.html#method___construct", "name": "Functor\\Predicate\\DualP::__construct", "doc": "&quot;Predicate that represents the predicate on two arguments&quot;"},
                     {"type": "Method", "fromName": "Functor\\Predicate\\DualP", "fromLink": "Functor/Predicate/DualP.html", "link": "Functor/Predicate/DualP.html#method___invoke", "name": "Functor\\Predicate\\DualP::__invoke", "doc": "&quot;&quot;"},
             
-            {"type": "Class", "fromName": "Functor\\Predicate", "fromLink": "Functor/Predicate.html", "link": "Functor/Predicate/EqualP.html", "name": "Functor\\Predicate\\EqualP", "doc": "&quot;EqualP&quot;"},
+            {"type": "Class", "fromName": "Functor\\Predicate", "fromLink": "Functor/Predicate.html", "link": "Functor/Predicate/EqualP.html", "name": "Functor\\Predicate\\EqualP", "doc": "&quot;Predicate that all arguments are equal&quot;"},
                                                         {"type": "Method", "fromName": "Functor\\Predicate\\EqualP", "fromLink": "Functor/Predicate/EqualP.html", "link": "Functor/Predicate/EqualP.html#method___invoke", "name": "Functor\\Predicate\\EqualP::__invoke", "doc": "&quot;&quot;"},
             
             {"type": "Class", "fromName": "Functor\\Predicate", "fromLink": "Functor/Predicate.html", "link": "Functor/Predicate/FalseP.html", "name": "Functor\\Predicate\\FalseP", "doc": "&quot;Opaque predicate that is always false&quot;"},
@@ -78,7 +78,7 @@
                                                         {"type": "Method", "fromName": "Functor\\Predicate\\SingleP", "fromLink": "Functor/Predicate/SingleP.html", "link": "Functor/Predicate/SingleP.html#method___construct", "name": "Functor\\Predicate\\SingleP::__construct", "doc": "&quot;Predicate that represents the predicate on single argument&quot;"},
                     {"type": "Method", "fromName": "Functor\\Predicate\\SingleP", "fromLink": "Functor/Predicate/SingleP.html", "link": "Functor/Predicate/SingleP.html#method___invoke", "name": "Functor\\Predicate\\SingleP::__invoke", "doc": "&quot;&quot;"},
             
-            {"type": "Class", "fromName": "Functor\\Predicate", "fromLink": "Functor/Predicate.html", "link": "Functor/Predicate/StrictEqualP.html", "name": "Functor\\Predicate\\StrictEqualP", "doc": "&quot;StrictEqualP&quot;"},
+            {"type": "Class", "fromName": "Functor\\Predicate", "fromLink": "Functor/Predicate.html", "link": "Functor/Predicate/StrictEqualP.html", "name": "Functor\\Predicate\\StrictEqualP", "doc": "&quot;Predicate that all arguments are strictly equal&quot;"},
                                                         {"type": "Method", "fromName": "Functor\\Predicate\\StrictEqualP", "fromLink": "Functor/Predicate/StrictEqualP.html", "link": "Functor/Predicate/StrictEqualP.html#method___invoke", "name": "Functor\\Predicate\\StrictEqualP::__invoke", "doc": "&quot;&quot;"},
             
             {"type": "Class", "fromName": "Functor\\Predicate", "fromLink": "Functor/Predicate.html", "link": "Functor/Predicate/StringP.html", "name": "Functor\\Predicate\\StringP", "doc": "&quot;Predicate that represents the predicate only on string arguments&quot;"},

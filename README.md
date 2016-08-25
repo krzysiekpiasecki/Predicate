@@ -1,6 +1,6 @@
 # __Predicate__
 
-Predicate package provides the PHP foundation for creating invokable boolean-valued predicates on multi arguments, implemented as a function objects that returns a value that is either true or false.
+A functor that accepts input arguments and returns boolean value
 
 ![img](https://krzysiekpiasecki.github.io/Predicate/img/theme.png)
 
@@ -15,7 +15,7 @@ A predicate is commonly understood to be a Boolean-valued function P: X→ {true
 
 ### Documentation
 
-Are you interested in more details? [Here's the complete documentation of Predicate API](https://krzysiekpiasecki.github.io/Predicate/api/Functor.html).
+Are you interested in more details? [Here's the complete documentation of API](https://krzysiekpiasecki.github.io/Predicate/api/Functor.html).
 
 You can also [read more on Wiki](https://github.com/krzysiekpiasecki/Predicate/wiki).
 

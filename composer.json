@@ -1,6 +1,6 @@
 {
   "name": "pfunctor/predicate",
-  "description": "Invokable boolean-valued predicates",
+  "description": "A functor that accepts input arguments and returns boolean value",
   "keywords": [
     "functor",
     "function",
@@ -23,8 +23,7 @@
     "phpunit/phpunit": "5.*",
     "friendsofphp/php-cs-fixer": "^1.0",
     "sami/sami": "^3.0",
-    "phing/phing": "^2.1",
-    "phpmetrics/phpmetrics": "^1.0"
+    "phing/phing": "^2.1"
   },
   "autoload": {
     "psr-4": {"Functor\\": ["src/Functor", "tests/Functor"]}

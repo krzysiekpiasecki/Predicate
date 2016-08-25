@@ -18,11 +18,6 @@
         <exec command="./vendor/bin/sami.php parse --force sami.php"/>
         <exec command="./vendor/bin/sami.php render --force sami.php"/>
 
-        <echo msg="Building software metrics ..."/>
-        
-        <exec command="mkdir ./docs/metrics" />
-        <exec command="./vendor/bin/phpmetrics"/>
-
     </target>
 
 </project>

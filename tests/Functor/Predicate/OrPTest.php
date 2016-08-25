@@ -1,4 +1,4 @@
-<?php declare (strict_types = 1);
+<?php declare(strict_types=1);
 
 /*
  * For the full copyright and license information, please view the LICENSE
@@ -34,8 +34,7 @@ class OrPTest extends \PHPUnit_Framework_TestCase
      */
     public function testStopAfterTrue()
     {
-        $this->assertTrue((new OrP(new TrueP, new class() implements PredicateInterface
-        {
+        $this->assertTrue((new OrP(new TrueP, new class() implements PredicateInterface {
             public function __invoke(...$subject): bool
             {
                 throw new \RuntimeException('Fake predicate exception');
@@ -51,8 +50,7 @@ class OrPTest extends \PHPUnit_Framework_TestCase
      */
     public function testContinueAfterFalse()
     {
-        (new OrP(new FalseP, new class() implements PredicateInterface
-        {
+        (new OrP(new FalseP, new class() implements PredicateInterface {
             public function __invoke(...$subject): bool
             {
                 throw new \RuntimeException('Fake predicate exception');
