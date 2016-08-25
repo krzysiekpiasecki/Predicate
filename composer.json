@@ -1,9 +1,12 @@
 {
-  "name": "predicate/predicate",
+  "name": "functor/predicate",
   "description": "Invokable boolean-valued predicates",
   "keywords": [
+    "functor",
+    "function",
+    "functional",
     "predicate",
-    "closure"  
+    "closure"
   ],
   "minimum-stability": "stable",
   "license": "MIT",

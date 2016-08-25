@@ -9,128 +9,128 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 3172)">
 <title>G</title>
 <polygon fill="white" stroke="none" points="-4,4 -4,-3172 3046,-3172 3046,4 -4,4"/>
-<!-- src/Functor/AndP.php -->
-<g id="node1" class="node"><title>src/Functor/AndP.php</title>
-<g id="a_node1"><a xlink:title="src/Functor/AndP.php">
+<!-- src/Functor/Predicate/AndP.php -->
+<g id="node1" class="node"><title>src/Functor/Predicate/AndP.php</title>
+<g id="a_node1"><a xlink:title="src/Functor/Predicate/AndP.php">
 <ellipse fill="#458b00" stroke="#458b00" cx="1269" cy="-2151" rx="324" ry="324"/>
 </a>
 </g>
 </g>
-<!-- src/Functor/ComplexP.php -->
-<g id="node2" class="node"><title>src/Functor/ComplexP.php</title>
-<g id="a_node2"><a xlink:title="src/Functor/ComplexP.php">
+<!-- src/Functor/Predicate/ComplexP.php -->
+<g id="node2" class="node"><title>src/Functor/Predicate/ComplexP.php</title>
+<g id="a_node2"><a xlink:title="src/Functor/Predicate/ComplexP.php">
 <ellipse fill="#458b00" stroke="#458b00" cx="1620" cy="-108" rx="108" ry="108"/>
 </a>
 </g>
 </g>
-<!-- src/Functor/DualP.php -->
-<g id="node3" class="node"><title>src/Functor/DualP.php</title>
-<g id="a_node3"><a xlink:title="src/Functor/DualP.php">
+<!-- src/Functor/Predicate/DualP.php -->
+<g id="node3" class="node"><title>src/Functor/Predicate/DualP.php</title>
+<g id="a_node3"><a xlink:title="src/Functor/Predicate/DualP.php">
 <ellipse fill="#458b00" stroke="#458b00" cx="2232" cy="-531" rx="216" ry="216"/>
 </a>
 </g>
 </g>
-<!-- src/Functor/EqualP.php -->
-<g id="node4" class="node"><title>src/Functor/EqualP.php</title>
-<g id="a_node4"><a xlink:title="src/Functor/EqualP.php">
+<!-- src/Functor/Predicate/EqualP.php -->
+<g id="node4" class="node"><title>src/Functor/Predicate/EqualP.php</title>
+<g id="a_node4"><a xlink:title="src/Functor/Predicate/EqualP.php">
 <ellipse fill="#458b00" stroke="#458b00" cx="2133" cy="-1251" rx="432" ry="432"/>
 </a>
 </g>
 </g>
-<!-- src/Functor/FalseP.php -->
-<g id="node5" class="node"><title>src/Functor/FalseP.php</title>
-<g id="a_node5"><a xlink:title="src/Functor/FalseP.php">
+<!-- src/Functor/Predicate/FalseP.php -->
+<g id="node5" class="node"><title>src/Functor/Predicate/FalseP.php</title>
+<g id="a_node5"><a xlink:title="src/Functor/Predicate/FalseP.php">
 <ellipse fill="#458b00" stroke="#458b00" cx="405" cy="-531" rx="216" ry="216"/>
 </a>
 </g>
 </g>
-<!-- src/Functor/FloatP.php -->
-<g id="node6" class="node"><title>src/Functor/FloatP.php</title>
-<g id="a_node6"><a xlink:title="src/Functor/FloatP.php">
+<!-- src/Functor/Predicate/FloatP.php -->
+<g id="node6" class="node"><title>src/Functor/Predicate/FloatP.php</title>
+<g id="a_node6"><a xlink:title="src/Functor/Predicate/FloatP.php">
 <ellipse fill="#458b00" stroke="#458b00" cx="513" cy="-2655" rx="324" ry="324"/>
 </a>
 </g>
 </g>
-<!-- src/Functor/IfElseP.php -->
-<g id="node7" class="node"><title>src/Functor/IfElseP.php</title>
-<g id="a_node7"><a xlink:title="src/Functor/IfElseP.php">
+<!-- src/Functor/Predicate/IfElseP.php -->
+<g id="node7" class="node"><title>src/Functor/Predicate/IfElseP.php</title>
+<g id="a_node7"><a xlink:title="src/Functor/Predicate/IfElseP.php">
 <ellipse fill="#458b00" stroke="#458b00" cx="2718" cy="-2844" rx="324" ry="324"/>
 </a>
 </g>
 </g>
-<!-- src/Functor/IfP.php -->
-<g id="node8" class="node"><title>src/Functor/IfP.php</title>
-<g id="a_node8"><a xlink:title="src/Functor/IfP.php">
+<!-- src/Functor/Predicate/IfP.php -->
+<g id="node8" class="node"><title>src/Functor/Predicate/IfP.php</title>
+<g id="a_node8"><a xlink:title="src/Functor/Predicate/IfP.php">
 <ellipse fill="#458b00" stroke="#458b00" cx="324" cy="-1899" rx="324" ry="324"/>
 </a>
 </g>
 </g>
-<!-- src/Functor/IntP.php -->
-<g id="node9" class="node"><title>src/Functor/IntP.php</title>
-<g id="a_node9"><a xlink:title="src/Functor/IntP.php">
+<!-- src/Functor/Predicate/IntP.php -->
+<g id="node9" class="node"><title>src/Functor/Predicate/IntP.php</title>
+<g id="a_node9"><a xlink:title="src/Functor/Predicate/IntP.php">
 <ellipse fill="#458b00" stroke="#458b00" cx="324" cy="-1143" rx="324" ry="324"/>
 </a>
 </g>
 </g>
-<!-- src/Functor/InvokeP.php -->
-<g id="node10" class="node"><title>src/Functor/InvokeP.php</title>
-<g id="a_node10"><a xlink:title="src/Functor/InvokeP.php">
+<!-- src/Functor/Predicate/InvokeP.php -->
+<g id="node10" class="node"><title>src/Functor/Predicate/InvokeP.php</title>
+<g id="a_node10"><a xlink:title="src/Functor/Predicate/InvokeP.php">
 <ellipse fill="#458b00" stroke="#458b00" cx="2106" cy="-2736" rx="216" ry="216"/>
 </a>
 </g>
 </g>
-<!-- src/Functor/NotP.php -->
-<g id="node11" class="node"><title>src/Functor/NotP.php</title>
-<g id="a_node11"><a xlink:title="src/Functor/NotP.php">
+<!-- src/Functor/Predicate/NotP.php -->
+<g id="node11" class="node"><title>src/Functor/Predicate/NotP.php</title>
+<g id="a_node11"><a xlink:title="src/Functor/Predicate/NotP.php">
 <ellipse fill="#458b00" stroke="#458b00" cx="1179" cy="-2691" rx="108" ry="108"/>
 </a>
 </g>
 </g>
-<!-- src/Functor/OrP.php -->
-<g id="node12" class="node"><title>src/Functor/OrP.php</title>
-<g id="a_node12"><a xlink:title="src/Functor/OrP.php">
+<!-- src/Functor/Predicate/OrP.php -->
+<g id="node12" class="node"><title>src/Functor/Predicate/OrP.php</title>
+<g id="a_node12"><a xlink:title="src/Functor/Predicate/OrP.php">
 <ellipse fill="#458b00" stroke="#458b00" cx="2025" cy="-2088" rx="324" ry="324"/>
 </a>
 </g>
 </g>
-<!-- src/Functor/PredicateInterface.php -->
-<g id="node13" class="node"><title>src/Functor/PredicateInterface.php</title>
-<g id="a_node13"><a xlink:title="src/Functor/PredicateInterface.php">
+<!-- src/Functor/Predicate/PredicateInterface.php -->
+<g id="node13" class="node"><title>src/Functor/Predicate/PredicateInterface.php</title>
+<g id="a_node13"><a xlink:title="src/Functor/Predicate/PredicateInterface.php">
 <ellipse fill="#458b00" stroke="#458b00" cx="1935" cy="-108" rx="108" ry="108"/>
 </a>
 </g>
 </g>
-<!-- src/Functor/SingleP.php -->
-<g id="node14" class="node"><title>src/Functor/SingleP.php</title>
-<g id="a_node14"><a xlink:title="src/Functor/SingleP.php">
+<!-- src/Functor/Predicate/SingleP.php -->
+<g id="node14" class="node"><title>src/Functor/Predicate/SingleP.php</title>
+<g id="a_node14"><a xlink:title="src/Functor/Predicate/SingleP.php">
 <ellipse fill="#458b00" stroke="#458b00" cx="2673" cy="-1980" rx="216" ry="216"/>
 </a>
 </g>
 </g>
-<!-- src/Functor/StrictEqualP.php -->
-<g id="node15" class="node"><title>src/Functor/StrictEqualP.php</title>
-<g id="a_node15"><a xlink:title="src/Functor/StrictEqualP.php">
+<!-- src/Functor/Predicate/StrictEqualP.php -->
+<g id="node15" class="node"><title>src/Functor/Predicate/StrictEqualP.php</title>
+<g id="a_node15"><a xlink:title="src/Functor/Predicate/StrictEqualP.php">
 <ellipse fill="#458b00" stroke="#458b00" cx="1188" cy="-1314" rx="432" ry="432"/>
 </a>
 </g>
 </g>
-<!-- src/Functor/StringP.php -->
-<g id="node16" class="node"><title>src/Functor/StringP.php</title>
-<g id="a_node16"><a xlink:title="src/Functor/StringP.php">
+<!-- src/Functor/Predicate/StringP.php -->
+<g id="node16" class="node"><title>src/Functor/Predicate/StringP.php</title>
+<g id="a_node16"><a xlink:title="src/Functor/Predicate/StringP.php">
 <ellipse fill="#458b00" stroke="#458b00" cx="1080" cy="-450" rx="324" ry="324"/>
 </a>
 </g>
 </g>
-<!-- src/Functor/TrueP.php -->
-<g id="node17" class="node"><title>src/Functor/TrueP.php</title>
-<g id="a_node17"><a xlink:title="src/Functor/TrueP.php">
+<!-- src/Functor/Predicate/TrueP.php -->
+<g id="node17" class="node"><title>src/Functor/Predicate/TrueP.php</title>
+<g id="a_node17"><a xlink:title="src/Functor/Predicate/TrueP.php">
 <ellipse fill="#458b00" stroke="#458b00" cx="1602" cy="-2799" rx="216" ry="216"/>
 </a>
 </g>
 </g>
-<!-- src/Functor/XorP.php -->
-<g id="node18" class="node"><title>src/Functor/XorP.php</title>
-<g id="a_node18"><a xlink:title="src/Functor/XorP.php">
+<!-- src/Functor/Predicate/XorP.php -->
+<g id="node18" class="node"><title>src/Functor/Predicate/XorP.php</title>
+<g id="a_node18"><a xlink:title="src/Functor/Predicate/XorP.php">
 <ellipse fill="#458b00" stroke="#458b00" cx="1728" cy="-531" rx="216" ry="216"/>
 </a>
 </g>

@@ -1,48 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd version="@package_version@" timestamp="2016-08-25T19:29:49+02:00">
-  <file name="/Users/krzysztek/NetBeansProjects/Petrus/src/Functor/AndP.php">
-    <violation beginline="1" endline="58" rule="cyclomaticComplexity" ruleset="cyclomaticComplexity" externalInfoUrl="http://phpmetrics.org/documentation/index.html" priority="3">the "cyclomaticComplexity" value (3) of "src/Functor/AndP.php" is incorrect. The configured cyclomaticComplexity threshold is 10, 6, 2</violation>
+<pmd version="@package_version@" timestamp="2016-08-25T21:14:20+02:00">
+  <file name="/Users/krzysztek/NetBeansProjects/Petrus/src/Functor/Predicate/AndP.php">
+    <violation beginline="1" endline="58" rule="cyclomaticComplexity" ruleset="cyclomaticComplexity" externalInfoUrl="http://phpmetrics.org/documentation/index.html" priority="3">the "cyclomaticComplexity" value (3) of "src/Functor/Predicate/AndP.php" is incorrect. The configured cyclomaticComplexity threshold is 10, 6, 2</violation>
   </file>
-  <file name="/Users/krzysztek/NetBeansProjects/Petrus/src/Functor/DualP.php">
-    <violation beginline="1" endline="47" rule="cyclomaticComplexity" ruleset="cyclomaticComplexity" externalInfoUrl="http://phpmetrics.org/documentation/index.html" priority="3">the "cyclomaticComplexity" value (2) of "src/Functor/DualP.php" is incorrect. The configured cyclomaticComplexity threshold is 10, 6, 2</violation>
+  <file name="/Users/krzysztek/NetBeansProjects/Petrus/src/Functor/Predicate/DualP.php">
+    <violation beginline="1" endline="47" rule="cyclomaticComplexity" ruleset="cyclomaticComplexity" externalInfoUrl="http://phpmetrics.org/documentation/index.html" priority="3">the "cyclomaticComplexity" value (2) of "src/Functor/Predicate/DualP.php" is incorrect. The configured cyclomaticComplexity threshold is 10, 6, 2</violation>
   </file>
-  <file name="/Users/krzysztek/NetBeansProjects/Petrus/src/Functor/EqualP.php">
-    <violation beginline="1" endline="40" rule="cyclomaticComplexity" ruleset="cyclomaticComplexity" externalInfoUrl="http://phpmetrics.org/documentation/index.html" priority="3">the "cyclomaticComplexity" value (4) of "src/Functor/EqualP.php" is incorrect. The configured cyclomaticComplexity threshold is 10, 6, 2</violation>
+  <file name="/Users/krzysztek/NetBeansProjects/Petrus/src/Functor/Predicate/EqualP.php">
+    <violation beginline="1" endline="40" rule="cyclomaticComplexity" ruleset="cyclomaticComplexity" externalInfoUrl="http://phpmetrics.org/documentation/index.html" priority="3">the "cyclomaticComplexity" value (4) of "src/Functor/Predicate/EqualP.php" is incorrect. The configured cyclomaticComplexity threshold is 10, 6, 2</violation>
   </file>
-  <file name="/Users/krzysztek/NetBeansProjects/Petrus/src/Functor/FalseP.php">
-    <violation beginline="1" endline="45" rule="cyclomaticComplexity" ruleset="cyclomaticComplexity" externalInfoUrl="http://phpmetrics.org/documentation/index.html" priority="3">the "cyclomaticComplexity" value (2) of "src/Functor/FalseP.php" is incorrect. The configured cyclomaticComplexity threshold is 10, 6, 2</violation>
+  <file name="/Users/krzysztek/NetBeansProjects/Petrus/src/Functor/Predicate/FalseP.php">
+    <violation beginline="1" endline="45" rule="cyclomaticComplexity" ruleset="cyclomaticComplexity" externalInfoUrl="http://phpmetrics.org/documentation/index.html" priority="3">the "cyclomaticComplexity" value (2) of "src/Functor/Predicate/FalseP.php" is incorrect. The configured cyclomaticComplexity threshold is 10, 6, 2</violation>
   </file>
-  <file name="/Users/krzysztek/NetBeansProjects/Petrus/src/Functor/FloatP.php">
-    <violation beginline="1" endline="49" rule="cyclomaticComplexity" ruleset="cyclomaticComplexity" externalInfoUrl="http://phpmetrics.org/documentation/index.html" priority="3">the "cyclomaticComplexity" value (3) of "src/Functor/FloatP.php" is incorrect. The configured cyclomaticComplexity threshold is 10, 6, 2</violation>
+  <file name="/Users/krzysztek/NetBeansProjects/Petrus/src/Functor/Predicate/FloatP.php">
+    <violation beginline="1" endline="49" rule="cyclomaticComplexity" ruleset="cyclomaticComplexity" externalInfoUrl="http://phpmetrics.org/documentation/index.html" priority="3">the "cyclomaticComplexity" value (3) of "src/Functor/Predicate/FloatP.php" is incorrect. The configured cyclomaticComplexity threshold is 10, 6, 2</violation>
   </file>
-  <file name="/Users/krzysztek/NetBeansProjects/Petrus/src/Functor/IfElseP.php">
-    <violation beginline="1" endline="57" rule="cyclomaticComplexity" ruleset="cyclomaticComplexity" externalInfoUrl="http://phpmetrics.org/documentation/index.html" priority="3">the "cyclomaticComplexity" value (3) of "src/Functor/IfElseP.php" is incorrect. The configured cyclomaticComplexity threshold is 10, 6, 2</violation>
+  <file name="/Users/krzysztek/NetBeansProjects/Petrus/src/Functor/Predicate/IfElseP.php">
+    <violation beginline="1" endline="57" rule="cyclomaticComplexity" ruleset="cyclomaticComplexity" externalInfoUrl="http://phpmetrics.org/documentation/index.html" priority="3">the "cyclomaticComplexity" value (3) of "src/Functor/Predicate/IfElseP.php" is incorrect. The configured cyclomaticComplexity threshold is 10, 6, 2</violation>
   </file>
-  <file name="/Users/krzysztek/NetBeansProjects/Petrus/src/Functor/IfP.php">
-    <violation beginline="1" endline="50" rule="cyclomaticComplexity" ruleset="cyclomaticComplexity" externalInfoUrl="http://phpmetrics.org/documentation/index.html" priority="3">the "cyclomaticComplexity" value (3) of "src/Functor/IfP.php" is incorrect. The configured cyclomaticComplexity threshold is 10, 6, 2</violation>
+  <file name="/Users/krzysztek/NetBeansProjects/Petrus/src/Functor/Predicate/IfP.php">
+    <violation beginline="1" endline="50" rule="cyclomaticComplexity" ruleset="cyclomaticComplexity" externalInfoUrl="http://phpmetrics.org/documentation/index.html" priority="3">the "cyclomaticComplexity" value (3) of "src/Functor/Predicate/IfP.php" is incorrect. The configured cyclomaticComplexity threshold is 10, 6, 2</violation>
   </file>
-  <file name="/Users/krzysztek/NetBeansProjects/Petrus/src/Functor/IntP.php">
-    <violation beginline="1" endline="49" rule="cyclomaticComplexity" ruleset="cyclomaticComplexity" externalInfoUrl="http://phpmetrics.org/documentation/index.html" priority="3">the "cyclomaticComplexity" value (3) of "src/Functor/IntP.php" is incorrect. The configured cyclomaticComplexity threshold is 10, 6, 2</violation>
+  <file name="/Users/krzysztek/NetBeansProjects/Petrus/src/Functor/Predicate/IntP.php">
+    <violation beginline="1" endline="49" rule="cyclomaticComplexity" ruleset="cyclomaticComplexity" externalInfoUrl="http://phpmetrics.org/documentation/index.html" priority="3">the "cyclomaticComplexity" value (3) of "src/Functor/Predicate/IntP.php" is incorrect. The configured cyclomaticComplexity threshold is 10, 6, 2</violation>
   </file>
-  <file name="/Users/krzysztek/NetBeansProjects/Petrus/src/Functor/InvokeP.php">
-    <violation beginline="1" endline="52" rule="cyclomaticComplexity" ruleset="cyclomaticComplexity" externalInfoUrl="http://phpmetrics.org/documentation/index.html" priority="3">the "cyclomaticComplexity" value (2) of "src/Functor/InvokeP.php" is incorrect. The configured cyclomaticComplexity threshold is 10, 6, 2</violation>
+  <file name="/Users/krzysztek/NetBeansProjects/Petrus/src/Functor/Predicate/InvokeP.php">
+    <violation beginline="1" endline="52" rule="cyclomaticComplexity" ruleset="cyclomaticComplexity" externalInfoUrl="http://phpmetrics.org/documentation/index.html" priority="3">the "cyclomaticComplexity" value (2) of "src/Functor/Predicate/InvokeP.php" is incorrect. The configured cyclomaticComplexity threshold is 10, 6, 2</violation>
   </file>
-  <file name="/Users/krzysztek/NetBeansProjects/Petrus/src/Functor/OrP.php">
-    <violation beginline="1" endline="59" rule="cyclomaticComplexity" ruleset="cyclomaticComplexity" externalInfoUrl="http://phpmetrics.org/documentation/index.html" priority="3">the "cyclomaticComplexity" value (3) of "src/Functor/OrP.php" is incorrect. The configured cyclomaticComplexity threshold is 10, 6, 2</violation>
+  <file name="/Users/krzysztek/NetBeansProjects/Petrus/src/Functor/Predicate/OrP.php">
+    <violation beginline="1" endline="59" rule="cyclomaticComplexity" ruleset="cyclomaticComplexity" externalInfoUrl="http://phpmetrics.org/documentation/index.html" priority="3">the "cyclomaticComplexity" value (3) of "src/Functor/Predicate/OrP.php" is incorrect. The configured cyclomaticComplexity threshold is 10, 6, 2</violation>
   </file>
-  <file name="/Users/krzysztek/NetBeansProjects/Petrus/src/Functor/SingleP.php">
-    <violation beginline="1" endline="47" rule="cyclomaticComplexity" ruleset="cyclomaticComplexity" externalInfoUrl="http://phpmetrics.org/documentation/index.html" priority="3">the "cyclomaticComplexity" value (2) of "src/Functor/SingleP.php" is incorrect. The configured cyclomaticComplexity threshold is 10, 6, 2</violation>
+  <file name="/Users/krzysztek/NetBeansProjects/Petrus/src/Functor/Predicate/SingleP.php">
+    <violation beginline="1" endline="47" rule="cyclomaticComplexity" ruleset="cyclomaticComplexity" externalInfoUrl="http://phpmetrics.org/documentation/index.html" priority="3">the "cyclomaticComplexity" value (2) of "src/Functor/Predicate/SingleP.php" is incorrect. The configured cyclomaticComplexity threshold is 10, 6, 2</violation>
   </file>
-  <file name="/Users/krzysztek/NetBeansProjects/Petrus/src/Functor/StrictEqualP.php">
-    <violation beginline="1" endline="40" rule="cyclomaticComplexity" ruleset="cyclomaticComplexity" externalInfoUrl="http://phpmetrics.org/documentation/index.html" priority="3">the "cyclomaticComplexity" value (4) of "src/Functor/StrictEqualP.php" is incorrect. The configured cyclomaticComplexity threshold is 10, 6, 2</violation>
+  <file name="/Users/krzysztek/NetBeansProjects/Petrus/src/Functor/Predicate/StrictEqualP.php">
+    <violation beginline="1" endline="40" rule="cyclomaticComplexity" ruleset="cyclomaticComplexity" externalInfoUrl="http://phpmetrics.org/documentation/index.html" priority="3">the "cyclomaticComplexity" value (4) of "src/Functor/Predicate/StrictEqualP.php" is incorrect. The configured cyclomaticComplexity threshold is 10, 6, 2</violation>
   </file>
-  <file name="/Users/krzysztek/NetBeansProjects/Petrus/src/Functor/StringP.php">
-    <violation beginline="1" endline="49" rule="cyclomaticComplexity" ruleset="cyclomaticComplexity" externalInfoUrl="http://phpmetrics.org/documentation/index.html" priority="3">the "cyclomaticComplexity" value (3) of "src/Functor/StringP.php" is incorrect. The configured cyclomaticComplexity threshold is 10, 6, 2</violation>
+  <file name="/Users/krzysztek/NetBeansProjects/Petrus/src/Functor/Predicate/StringP.php">
+    <violation beginline="1" endline="49" rule="cyclomaticComplexity" ruleset="cyclomaticComplexity" externalInfoUrl="http://phpmetrics.org/documentation/index.html" priority="3">the "cyclomaticComplexity" value (3) of "src/Functor/Predicate/StringP.php" is incorrect. The configured cyclomaticComplexity threshold is 10, 6, 2</violation>
   </file>
-  <file name="/Users/krzysztek/NetBeansProjects/Petrus/src/Functor/TrueP.php">
-    <violation beginline="1" endline="45" rule="cyclomaticComplexity" ruleset="cyclomaticComplexity" externalInfoUrl="http://phpmetrics.org/documentation/index.html" priority="3">the "cyclomaticComplexity" value (2) of "src/Functor/TrueP.php" is incorrect. The configured cyclomaticComplexity threshold is 10, 6, 2</violation>
+  <file name="/Users/krzysztek/NetBeansProjects/Petrus/src/Functor/Predicate/TrueP.php">
+    <violation beginline="1" endline="45" rule="cyclomaticComplexity" ruleset="cyclomaticComplexity" externalInfoUrl="http://phpmetrics.org/documentation/index.html" priority="3">the "cyclomaticComplexity" value (2) of "src/Functor/Predicate/TrueP.php" is incorrect. The configured cyclomaticComplexity threshold is 10, 6, 2</violation>
   </file>
-  <file name="/Users/krzysztek/NetBeansProjects/Petrus/src/Functor/XorP.php">
-    <violation beginline="1" endline="53" rule="cyclomaticComplexity" ruleset="cyclomaticComplexity" externalInfoUrl="http://phpmetrics.org/documentation/index.html" priority="3">the "cyclomaticComplexity" value (2) of "src/Functor/XorP.php" is incorrect. The configured cyclomaticComplexity threshold is 10, 6, 2</violation>
+  <file name="/Users/krzysztek/NetBeansProjects/Petrus/src/Functor/Predicate/XorP.php">
+    <violation beginline="1" endline="53" rule="cyclomaticComplexity" ruleset="cyclomaticComplexity" externalInfoUrl="http://phpmetrics.org/documentation/index.html" priority="3">the "cyclomaticComplexity" value (2) of "src/Functor/Predicate/XorP.php" is incorrect. The configured cyclomaticComplexity threshold is 10, 6, 2</violation>
   </file>
 </pmd>
