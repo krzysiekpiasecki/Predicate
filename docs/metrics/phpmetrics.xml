@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project loc="890" lloc="120" cyclomaticComplexity="2.44" maintainabilityIndex="107.49" volume="223.25" vocabulary="25.44" difficulty="7.22" effort="1762.81" bugs="0.08" time="98" intelligentContent="30.63" commentWeight="41.68" length="47.28" lcom="0.94" instability="0.74" efferentCoupling="1.33" afferentCoupling="1" sysc="4.77" rsysc="2.1" dc="2.44" rdc="1.32" sc="2.33" rsc="0.78" noc="18" noca="1" nocc="17" noi="1" nom="36">
+  <modules>
+    <module loc="890" lloc="120" cyclomaticComplexity="2.44" maintainabilityIndex="107.49" volume="223.25" vocabulary="25.44" difficulty="7.22" effort="1762.81" bugs="0.08" time="98" intelligentContent="30.63" commentWeight="41.68" length="47.28" lcom="0.94" instability="0.74" efferentCoupling="1.33" afferentCoupling="1" sysc="4.77" rsysc="2.1" dc="2.44" rdc="1.32" sc="2.33" rsc="0.78" noc="18" noca="1" nocc="17" noi="1" nom="36" namespace="src"/>
+    <module loc="890" lloc="120" cyclomaticComplexity="2.44" maintainabilityIndex="107.49" volume="223.25" vocabulary="25.44" difficulty="7.22" effort="1762.81" bugs="0.08" time="98" intelligentContent="30.63" commentWeight="41.68" length="47.28" lcom="0.94" instability="0.74" efferentCoupling="1.33" afferentCoupling="1" sysc="4.77" rsysc="2.1" dc="2.44" rdc="1.32" sc="2.33" rsc="0.78" noc="18" noca="1" nocc="17" noi="1" nom="36" namespace="src/Functor"/>
+  </modules>
+</project>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="Predicate" default="build">
+
+    <!-- ============================================  -->
+    <!-- Target: build                                 -->
+    <!-- ============================================  -->
+    <target name="build">
+
+        <echo msg="Fixing coding standards..."/>
+        <exec command="./vendor/bin/php-cs-fixer fix"/>
+
+        <echo msg="Building api documentation ..."/>       
+        <exec command="mkdir ./docs" />
+        <exec command="mkdir ./docs/api" />
+        <exec command="rm -rf ./docs/api/*" />
+        <exec command="rm -rf ./var/cache/sami" />
+        <exec command="./vendor/bin/sami.php parse --force sami.php"/>
+        <exec command="./vendor/bin/sami.php render --force sami.php"/>
+
+        <echo msg="Building software metrics ..."/>
+        
+        <exec command="mkdir ./docs/metrics" />
+        <exec command="./vendor/bin/phpmetrics"/>
+
+    </target>
+
+</project>
