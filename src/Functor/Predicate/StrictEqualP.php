@@ -10,7 +10,7 @@ declare (strict_types = 1);
 namespace Functor\Predicate;
 
 /**
- * StrictEqualP
+ * Predicate that all arguments are strictly equal
  *
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
  * @package Functor\Predicate

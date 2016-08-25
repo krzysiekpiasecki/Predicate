@@ -1,5 +1,5 @@
 {
-  "name": "functor/predicate",
+  "name": "pfunctor/predicate",
   "description": "Invokable boolean-valued predicates",
   "keywords": [
     "functor",

@@ -10,7 +10,7 @@ declare (strict_types = 1);
 namespace Functor\Predicate;
 
 /**
- * EqualP
+ * Predicate that all arguments are equal
  *
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
  * @package Functor\Predicate
