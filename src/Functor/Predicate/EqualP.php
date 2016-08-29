@@ -16,7 +16,7 @@ namespace Functor\Predicate;
  * @package Functor\Predicate
  * @since 1.0
  */
-final class EqualP implements PredicateInterface
+final class EqualP implements Predicate
 {
     /**
      * @inheritdoc

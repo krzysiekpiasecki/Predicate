@@ -16,17 +16,17 @@ namespace Functor\Predicate;
  * @package Functor\Predicate
  * @since 1.0
  */
-final class TrueP implements PredicateInterface
+final class TrueP implements Predicate
 {
     /**
-     * @var PredicateInterface
+     * @var Predicate
      */
     private $predicate;
 
     /**
-     * @param PredicateInterface $predicate
+     * @param Predicate $predicate
      */
-    public function __construct(PredicateInterface $predicate = null)
+    public function __construct(Predicate $predicate = null)
     {
         $this->predicate = $predicate;
     }

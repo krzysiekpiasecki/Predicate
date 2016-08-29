@@ -14,25 +14,25 @@ namespace Functor\Predicate;
  * @package Functor\Predicate
  * @since 1.0
  */
-final class IfP implements PredicateInterface
+final class IfP implements Predicate
 {
     /**
-     * @var PredicateInterface
+     * @var Predicate
      */
     private $predicate;
 
     /**
-     * @var PredicateInterface
+     * @var Predicate
      */
     private $predicateTrue;
 
     /**
      * Composed predicate that represents if predicate
      *
-     * @param PredicateInterface $predicate
-     * @param PredicateInterface $predicateTrue
+     * @param Predicate $predicate
+     * @param Predicate $predicateTrue
      */
-    public function __construct(PredicateInterface $predicate, PredicateInterface $predicateTrue)
+    public function __construct(Predicate $predicate, Predicate $predicateTrue)
     {
         $this->predicate = $predicate;
         $this->predicateTrue = $predicateTrue;

@@ -14,19 +14,19 @@ namespace Functor\Predicate;
  * @package Functor\Predicate
  * @since 1.0
  */
-final class IntP implements PredicateInterface
+final class IntP implements Predicate
 {
     /**
-     * @var PredicateInterface
+     * @var Predicate
      */
     private $predicate;
 
     /**
      * Predicate that represents the predicate only on int arguments
      *
-     * @param PredicateInterface $predicate
+     * @param Predicate $predicate
      */
-    public function __construct(PredicateInterface $predicate)
+    public function __construct(Predicate $predicate)
     {
         $this->predicate = $predicate;
     }

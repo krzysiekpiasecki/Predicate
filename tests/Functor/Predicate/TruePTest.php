@@ -36,7 +36,7 @@ class TruePTest extends \PHPUnit_Framework_TestCase
      */
     public function testInvokeInnerEvaluation()
     {
-        $p = new TrueP(new class implements PredicateInterface {
+        $p = new TrueP(new class implements Predicate {
             public function __invoke(...$subject): bool
             {
                 throw new \RuntimeException('Fake exception');

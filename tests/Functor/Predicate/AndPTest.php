@@ -34,7 +34,7 @@ class AndPTest extends \PHPUnit_Framework_TestCase
      */
     public function testStopAfterFalse()
     {
-        $this->assertFalse((new AndP(new FalseP, new class() implements PredicateInterface {
+        $this->assertFalse((new AndP(new FalseP, new class() implements Predicate {
             public function __invoke(...$subject): bool
             {
                 throw new \RuntimeException('Fake predicate exception');
@@ -50,7 +50,7 @@ class AndPTest extends \PHPUnit_Framework_TestCase
      */
     public function testContinueAfterTrue()
     {
-        (new AndP(new TrueP, new class() implements PredicateInterface {
+        (new AndP(new TrueP, new class() implements Predicate {
             public function __invoke(...$subject): bool
             {
                 throw new \RuntimeException('Fake predicate exception');

@@ -14,19 +14,19 @@ namespace Functor\Predicate;
  * @package Functor\Predicate
  * @since 1.0
  */
-final class DualP implements PredicateInterface
+final class DualP implements Predicate
 {
     /**
-     * @var PredicateInterface
+     * @var Predicate
      */
     private $predicate;
 
     /**
      * Predicate that represents the predicate on two arguments
      *
-     * @param PredicateInterface $predicate
+     * @param Predicate $predicate
      */
-    public function __construct(PredicateInterface $predicate)
+    public function __construct(Predicate $predicate)
     {
         $this->predicate = $predicate;
     }

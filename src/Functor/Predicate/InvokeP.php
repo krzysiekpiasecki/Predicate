@@ -16,7 +16,7 @@ namespace Functor\Predicate;
  * @package Functor\Predicate
  * @since 1.0
  */
-final class InvokeP implements PredicateInterface
+final class InvokeP implements Predicate
 {
     /**
      * @var callable

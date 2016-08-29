@@ -14,19 +14,19 @@ namespace Functor\Predicate;
  * @package Functor\Predicate
  * @since 1.0
  */
-final class SingleP implements PredicateInterface
+final class SingleP implements Predicate
 {
     /**
-     * @var PredicateInterface
+     * @var Predicate
      */
     private $predicate;
 
     /**
      * Predicate that represents the predicate on single argument
      *
-     * @param PredicateInterface $predicate
+     * @param Predicate $predicate
      */
-    public function __construct(PredicateInterface $predicate)
+    public function __construct(Predicate $predicate)
     {
         $this->predicate = $predicate;
     }

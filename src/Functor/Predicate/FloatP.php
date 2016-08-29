@@ -14,19 +14,19 @@ namespace Functor\Predicate;
  * @package Functor\Predicate
  * @since 1.0
  */
-final class FloatP implements PredicateInterface
+final class FloatP implements Predicate
 {
     /**
-     * @var PredicateInterface
+     * @var Predicate
      */
     private $predicate;
 
     /**
      * Predicate that represents the predicate only on float arguments
      *
-     * @param PredicateInterface $predicate
+     * @param Predicate $predicate
      */
-    public function __construct(PredicateInterface $predicate)
+    public function __construct(Predicate $predicate)
     {
         $this->predicate = $predicate;
     }

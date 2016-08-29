@@ -16,7 +16,7 @@ namespace Functor\Predicate;
  * @package Functor\Predicate
  * @since 1.0
  */
-final class StrictEqualP implements PredicateInterface
+final class StrictEqualP implements Predicate
 {
     /**
      * @inheritdoc

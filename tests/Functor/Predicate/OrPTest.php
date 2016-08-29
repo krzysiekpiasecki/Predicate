@@ -34,7 +34,7 @@ class OrPTest extends \PHPUnit_Framework_TestCase
      */
     public function testStopAfterTrue()
     {
-        $this->assertTrue((new OrP(new TrueP, new class() implements PredicateInterface {
+        $this->assertTrue((new OrP(new TrueP, new class() implements Predicate {
             public function __invoke(...$subject): bool
             {
                 throw new \RuntimeException('Fake predicate exception');
@@ -50,7 +50,7 @@ class OrPTest extends \PHPUnit_Framework_TestCase
      */
     public function testContinueAfterFalse()
     {
-        (new OrP(new FalseP, new class() implements PredicateInterface {
+        (new OrP(new FalseP, new class() implements Predicate {
             public function __invoke(...$subject): bool
             {
                 throw new \RuntimeException('Fake predicate exception');

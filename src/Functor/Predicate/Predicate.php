@@ -14,7 +14,7 @@ namespace Functor\Predicate;
  * @package Functor\Predicate
  * @since 1.0
  */
-interface PredicateInterface
+interface Predicate
 {
     /**
      * Invokes a predicate on the subjects and returns the result that may be true or false

@@ -19,7 +19,7 @@ namespace Functor\Predicate;
  * @package Functor\Predicate
  * @since 1.0
  */
-final class OrP implements PredicateInterface
+final class OrP implements Predicate
 {
 
     /**
@@ -31,11 +31,11 @@ final class OrP implements PredicateInterface
      * Composed predicate that represents the short-circuiting logical OR of this predicate and the
      * other predicates
      *
-     * @param PredicateInterface $p1
-     * @param PredicateInterface $p2
-     * @param PredicateInterface[] ...$next
+     * @param Predicate $p1
+     * @param Predicate $p2
+     * @param Predicate[] ...$next
      */
-    public function __construct(PredicateInterface $p1, PredicateInterface $p2, PredicateInterface ...$next)
+    public function __construct(Predicate $p1, Predicate $p2, Predicate ...$next)
     {
         $this->predicates = array_merge(
             [$p1, $p2],

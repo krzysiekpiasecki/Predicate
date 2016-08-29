@@ -14,19 +14,19 @@ namespace Functor\Predicate;
  * @package Functor\Predicate
  * @since 1.0
  */
-final class ComplexP implements PredicateInterface
+final class ComplexP implements Predicate
 {
     /**
-     * @var PredicateInterface
+     * @var Predicate
      */
     private $complex;
 
     /**
      * Composed predicate that represents a complex predicate statement
      *
-     * @param PredicateInterface $complex
+     * @param Predicate $complex
      */
-    public function __construct(PredicateInterface $complex)
+    public function __construct(Predicate $complex)
     {
         $this->complex = $complex;
     }
@@ -34,7 +34,7 @@ final class ComplexP implements PredicateInterface
     /**
      * @inheritdoc
      */
-    public function andP(PredicateInterface $pr): ComplexP
+    public function andP(Predicate $pr): ComplexP
     {
         return new ComplexP(
             new AndP(
@@ -47,7 +47,7 @@ final class ComplexP implements PredicateInterface
     /**
      * @inheritdoc
      */
-    public function orP(PredicateInterface $pr): ComplexP
+    public function orP(Predicate $pr): ComplexP
     {
         return new ComplexP(
             new OrP(
