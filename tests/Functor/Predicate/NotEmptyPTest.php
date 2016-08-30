@@ -24,12 +24,12 @@ class NotEmptyPTest extends \PHPUnit_Framework_TestCase
      */
     public function testInvoke()
     {
-        $this->assertTrue((new NotEmptyP())([1,2]));
+        $this->assertTrue((new NotEmptyP())([1, 2]));
         $this->assertTrue((new NotEmptyP())(true));
         $this->assertTrue((new NotEmptyP())(1.22));
 
         $this->assertFalse((new NotEmptyP())([]));
         $this->assertFalse((new NotEmptyP())(''));
-        $this->assertFalse((new NotEmptyP())(false));        
+        $this->assertFalse((new NotEmptyP())(false));
     }
 }
