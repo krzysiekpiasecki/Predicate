@@ -12,7 +12,7 @@ namespace Predicate\Common;
 use Predicate\Framework\Predicate;
 
 /**
- * Predicate that all arguments are equal
+ * Predicate that all input arguments are equal
  *
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
  * @package Predicate\Common

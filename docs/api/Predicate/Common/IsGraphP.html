@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="robots" content="index, follow, all" />
-    <title>Predicate\Common\EqualP | Predicate-Framework</title>
+    <title>Predicate\Common\IsGraphP | Predicate-Framework</title>
 
             <link rel="stylesheet" type="text/css" href="../../css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="../../css/bootstrap-theme.min.css">
@@ -19,7 +19,7 @@
     
     </head>
 
-    <body id="class" data-name="class:Predicate_Common_EqualP" data-root-path="../../">
+    <body id="class" data-name="class:Predicate_Common_IsGraphP" data-root-path="../../">
             <div id="content">
         <div id="left-column">
                 <div id="control-panel">
@@ -66,20 +66,20 @@
                                                             <li><a href="../../Predicate.html">Predicate</a></li>
                                         <li><a href="../../Predicate/Common.html">Common</a></li>
     
-                <li>EqualP</li>
+                <li>IsGraphP</li>
             </ol>
         </div>
                 <div id="page-content">
                 
     <div class="page-header">
         <h1>
-            EqualP
+            IsGraphP
                 
         </h1>
     </div>
 
     <p>    class
-    <strong>EqualP</strong>        implements
+    <strong>IsGraphP</strong>        implements
         <a href="../../Predicate/Framework/Predicate.html"><abbr title="Predicate\Framework\Predicate">Predicate</abbr></a>
 </p>
 
@@ -87,7 +87,7 @@
     
 
             <div class="description">
-            <p>Predicate that all input arguments are equal</p>                    </div>
+            <p>Predicate that all input arguments contains any printable characters except space</p>                    </div>
     
     
     
@@ -100,7 +100,7 @@
                     bool
                 </div>
                 <div class="col-md-8 type">
-                    <a href="#method___invoke">__invoke</a>(mixed $subject)
+                    <a href="#method___invoke">__invoke</a>($args)
         
                                             <p class="no-description">No description</p>
                                     </div>
@@ -114,9 +114,9 @@
             <div id="method-details">
                     <div class="method-item">
                     <h3 id="method___invoke">
-        <div class="location">at line         line 26</div>
+        <div class="location">at line         line 27</div>
         <code>                    bool
-    <strong>__invoke</strong>(mixed $subject)
+    <strong>__invoke</strong>($args)
         </code>
     </h3>
     <div class="details">
@@ -128,9 +128,9 @@
 
                     <table class="table table-condensed">
                     <tr>
-                <td>mixed</td>
-                <td>$subject</td>
-                <td>A predicate subjects</td>
+                <td></td>
+                <td>$args</td>
+                <td></td>
             </tr>
             </table>
 
