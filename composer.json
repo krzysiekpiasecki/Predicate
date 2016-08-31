@@ -4,6 +4,7 @@
   "keywords": [
     "predicate",
     "criteria",
+    "filter",
     "functor"
   ],
   "minimum-stability": "stable",
