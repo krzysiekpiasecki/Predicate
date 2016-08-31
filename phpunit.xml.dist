@@ -25,7 +25,7 @@
         verbose="false"
         bootstrap="vendor/autoload.php">
     <testsuites>
-        <testsuite name="Predicate">
+        <testsuite name="Predicate-Framework">
             <directory>tests</directory>
         </testsuite>
     </testsuites>

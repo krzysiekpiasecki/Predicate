@@ -1,6 +1,6 @@
 # __Predicate__
 
-A functor called the predicate that accepts input arguments and returns boolean value
+The PHP FRAMEWORK for creating the predicates that accepts input arguments and returns boolean value
 
 ![img](https://pfunctor.github.io/predicate/img/theme.png)
 
@@ -8,7 +8,7 @@ A functor called the predicate that accepts input arguments and returns boolean 
 
 ### What is a predicate?
 
-A predicate is commonly understood to be a Boolean-valued function P: X→ {true, false}, called the predicate on X. The result of the predicate may be true or false depending on the values of its variables. 
+A predicate is commonly understood to be a Boolean-valued function P: X→ {true, false}, called the predicate on X. The result of the predicate may be true or false depending on the values of its arguments. 
 
 <br>
 

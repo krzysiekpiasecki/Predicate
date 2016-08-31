@@ -1,12 +1,10 @@
 {
-  "name": "pfunctor/predicate",
-  "description": "A functor called the predicate that accepts input arguments and returns boolean value",
+  "name": "predicate/framework",
+  "description": "The framework for creating the predicates",
   "keywords": [
-    "functor",
-    "function",
-    "functional",
     "predicate",
-    "closure"
+    "criteria",
+    "functor"
   ],
   "minimum-stability": "stable",
   "license": "MIT",
@@ -26,6 +24,6 @@
     "phing/phing": "^2.1"
   },
   "autoload": {
-    "psr-4": {"Functor\\": ["src/Functor", "tests/Functor"]}
+    "psr-4": {"Predicate\\": ["src/Predicate", "tests/Predicate"]}
   }
 }

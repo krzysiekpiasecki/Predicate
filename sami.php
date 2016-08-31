@@ -7,7 +7,7 @@ return new Sami\Sami(
     array(
         'build_dir' => './docs/api',
         'cache_dir' => './var/cache/sami',
-        'title' => 'Predicate',
+        'title' => 'Predicate-Framework',
         'theme' => 'default',
         'include_parent_data' => true,
         'default_opened_level' => 1
