@@ -8,7 +8,7 @@
 namespace Predicate\Framework;
 
 /**
- * Framework that represents the predicate only on string arguments
+ * Predicate that represents the predicate only on string arguments
  *
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
  * @package Framework\Framework
@@ -22,7 +22,7 @@ final class StringP implements Predicate
     private $predicate;
 
     /**
-     * Framework that represents the predicate only on string arguments
+     * Predicate that represents the predicate only on string arguments
      *
      * @param Predicate $predicate
      */

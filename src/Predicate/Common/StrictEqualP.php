@@ -12,7 +12,7 @@ namespace Predicate\Common;
 use Predicate\Framework\Predicate;
 
 /**
- * Framework that all arguments are strictly equal
+ * Predicate that all arguments are strictly equal
  *
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
  * @package Predicate\Common

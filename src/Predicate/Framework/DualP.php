@@ -8,7 +8,7 @@
 namespace Predicate\Framework;
 
 /**
- * Framework that represents the predicate on two arguments
+ * Predicate that represents the predicate on two arguments
  *
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
  * @package Framework\Framework
@@ -22,7 +22,7 @@ final class DualP implements Predicate
     private $predicate;
 
     /**
-     * Framework that represents the predicate on two arguments
+     * Predicate that represents the predicate on two arguments
      *
      * @param Predicate $predicate
      */

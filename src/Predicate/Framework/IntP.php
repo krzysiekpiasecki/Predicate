@@ -8,7 +8,7 @@
 namespace Predicate\Framework;
 
 /**
- * Framework that represents the predicate only on int arguments
+ * Predicate that represents the predicate only on int arguments
  *
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
  * @package Framework\Framework
@@ -22,7 +22,7 @@ final class IntP implements Predicate
     private $predicate;
 
     /**
-     * Framework that represents the predicate only on int arguments
+     * Predicate that represents the predicate only on int arguments
      *
      * @param Predicate $predicate
      */

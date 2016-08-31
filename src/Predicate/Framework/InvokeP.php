@@ -8,7 +8,7 @@
 namespace Predicate\Framework;
 
 /**
- * Framework that represents the result of external callable predicate
+ * Predicate that represents the result of external callable predicate
  *
  * Any external callable must return strictly boolean value otherwise it throws an exception.
  *
@@ -24,7 +24,7 @@ final class InvokeP implements Predicate
     private $callable;
 
     /**
-     * Framework that represents the result of external callable predicate
+     * Predicate that represents the result of external callable predicate
      *
      * @param callable $callable
      */

@@ -8,7 +8,7 @@
 namespace Predicate\Framework;
 
 /**
- * Framework that represents the predicate on single argument
+ * Predicate that represents the predicate on single argument
  *
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
  * @package Framework\Framework
@@ -22,7 +22,7 @@ final class SingleP implements Predicate
     private $predicate;
 
     /**
-     * Framework that represents the predicate on single argument
+     * Predicate that represents the predicate on single argument
      *
      * @param Predicate $predicate
      */

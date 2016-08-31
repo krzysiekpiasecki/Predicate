@@ -8,7 +8,7 @@
 namespace Predicate\Framework;
 
 /**
- * Framework that represents the predicate only on float arguments
+ * Predicate that represents the predicate only on float arguments
  *
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
  * @package Framework\Framework
@@ -22,7 +22,7 @@ final class FloatP implements Predicate
     private $predicate;
 
     /**
-     * Framework that represents the predicate only on float arguments
+     * Predicate that represents the predicate only on float arguments
      *
      * @param Predicate $predicate
      */
