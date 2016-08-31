@@ -34,12 +34,12 @@ final class ComplexP implements Predicate
     /**
      * @inheritdoc
      */
-    public function andP(Predicate $pr): ComplexP
+    public function andP(Predicate ...$pr): ComplexP
     {
         return new ComplexP(
             new AndP(
                 $this->complex,
-                $pr
+                ...$pr
             )
         );
     }
@@ -47,12 +47,12 @@ final class ComplexP implements Predicate
     /**
      * @inheritdoc
      */
-    public function orP(Predicate $pr): ComplexP
+    public function orP(Predicate ...$pr): ComplexP
     {
         return new ComplexP(
             new OrP(
                 $this->complex,
-                $pr
+                ...$pr
             )
         );
     }

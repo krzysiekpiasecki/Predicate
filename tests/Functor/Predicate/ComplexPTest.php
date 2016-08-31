@@ -29,11 +29,12 @@ class ComplexPTest extends \PHPUnit_Framework_TestCase
     {
         $this->assertTrue(((new ComplexP(new TrueP))->orP(new FalseP))(null));
         $this->assertTrue(((new ComplexP(new TrueP))->orP(new TrueP))(null));
-
         $this->assertFalse(((new ComplexP(new FalseP))->andP(new TrueP))(null));
         $this->assertTrue(((new ComplexP(new TrueP))->andP(new TrueP))(null));
-
         $this->assertTrue(((new ComplexP(new FalseP))->negate())(null));
         $this->assertFalse(((new ComplexP(new TrueP))->negate())(null));
+
+        $this->assertTrue(((new ComplexP(new FalseP))->orP(new FalseP, new FalseP,  new TrueP))(null));
+        $this->assertFalse(((new ComplexP(new TrueP))->andP(new TrueP, new TrueP,  new FalseP))(null));
     }
 }
