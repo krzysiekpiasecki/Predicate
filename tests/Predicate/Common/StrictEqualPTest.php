@@ -7,15 +7,15 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Predicate\Framework;
+namespace Predicate\Common;
 
 /**
  * StrictEqualP test
  *
  * @see StrictEqualP
- * @coversDefaultClass Framework\Framework\StrictEqualP
+ * @coversDefaultClass Framework\Common\StrictEqualP
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
- * @package Framework\Framework
+ * @package Predicate\Common
  * @since 1.0
  */
 class StrictEqualPTest extends \PHPUnit_Framework_TestCase

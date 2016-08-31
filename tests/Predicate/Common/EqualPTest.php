@@ -7,15 +7,15 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Predicate\Framework;
+namespace Predicate\Common;
 
 /**
  * EqualP test
  *
  * @see EqualP
- * @coversDefaultClass Framework\Framework\EqualP
+ * @coversDefaultClass Framework\Common\EqualP
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
- * @package Framework\Framework
+ * @package Predicate\Common
  * @since 1.0
  */
 class EqualPTest extends \PHPUnit_Framework_TestCase

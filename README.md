@@ -15,7 +15,7 @@ A predicate is commonly understood to be a Boolean-valued function P: X→ {true
 
 ### Documentation
 
-Are you interested in more details? [Here's the complete documentation of API](https://krzysiekpiasecki.github.io/predicate/api/Predicate/Framework.html).
+Are you interested in more details? [Here's the complete documentation of API](https://krzysiekpiasecki.github.io/predicate/api/index.html).
 
 <br>
 

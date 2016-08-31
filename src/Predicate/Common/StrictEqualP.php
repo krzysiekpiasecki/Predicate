@@ -7,16 +7,18 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Predicate\Framework;
+namespace Predicate\Common;
+
+use Predicate\Framework\Predicate;
 
 /**
- * Framework that all arguments are equal
+ * Framework that all arguments are strictly equal
  *
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
- * @package Framework\Framework
+ * @package Predicate\Common
  * @since 1.0
  */
-final class EqualP implements Predicate
+final class StrictEqualP implements Predicate
 {
     /**
      * @inheritdoc
@@ -30,7 +32,7 @@ final class EqualP implements Predicate
         }
         for ($i = 1; $i < count($subject); ++$i) {
             $x = $subject[$i];
-            if ($first != $x) {
+            if ($first !== $x) {
                 return false;
             }
         }
