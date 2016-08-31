@@ -2,7 +2,7 @@
 
 The PHP FRAMEWORK for creating the predicates that accepts input arguments and returns boolean value
 
-![img](https://pfunctor.github.io/predicate/img/theme.png)
+![img](https://krzysiekpiasecki.github.io/predicate/img/theme.png)
 
 <br>
 
