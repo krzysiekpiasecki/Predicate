@@ -72,8 +72,8 @@ final class ComplexP implements Predicate
     /**
      * @inheritdoc
      */
-    public function __invoke(...$subject): bool
+    public function __invoke(...$args): bool
     {
-        return call_user_func_array($this->complex, $subject);
+        return call_user_func_array($this->complex, $args);
     }
 }

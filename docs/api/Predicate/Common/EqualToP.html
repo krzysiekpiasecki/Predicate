@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="robots" content="index, follow, all" />
-    <title>Predicate\Framework\OrP | Predicate-Framework</title>
+    <title>Predicate\Common\EqualToP | Predicate-Framework</title>
 
             <link rel="stylesheet" type="text/css" href="../../css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="../../css/bootstrap-theme.min.css">
@@ -19,7 +19,7 @@
     
     </head>
 
-    <body id="class" data-name="class:Predicate_Framework_OrP" data-root-path="../../">
+    <body id="class" data-name="class:Predicate_Common_EqualToP" data-root-path="../../">
             <div id="content">
         <div id="left-column">
                 <div id="control-panel">
@@ -64,22 +64,22 @@
             <ol class="breadcrumb">
                 <li><span class="label label-default">class</span></li>
                                                             <li><a href="../../Predicate.html">Predicate</a></li>
-                                        <li><a href="../../Predicate/Framework.html">Framework</a></li>
+                                        <li><a href="../../Predicate/Common.html">Common</a></li>
     
-                <li>OrP</li>
+                <li>EqualToP</li>
             </ol>
         </div>
                 <div id="page-content">
                 
     <div class="page-header">
         <h1>
-            OrP
+            EqualToP
                 
         </h1>
     </div>
 
     <p>    class
-    <strong>OrP</strong>        implements
+    <strong>EqualToP</strong>        implements
         <a href="../../Predicate/Framework/Predicate.html"><abbr title="Predicate\Framework\Predicate">Predicate</abbr></a>
 </p>
 
@@ -87,10 +87,7 @@
     
 
             <div class="description">
-            <p>Composed predicate that represents the short-circuiting logical OR of this predicate and another</p>            <p>When evaluating the composed predicate, if this predicate is true, then the other predicate is not evaluated.
-Any exceptions thrown during evaluation of either predicate are relayed to the caller.</p>
-
-<p>If evaluation of this predicate throws an exception, the other predicate will not be evaluated.</p>        </div>
+            <p>Predicate that all input arguments are equal to a given argument</p>                    </div>
     
     
     
@@ -103,10 +100,9 @@ Any exceptions thrown during evaluation of either predicate are relayed to the c
                     
                 </div>
                 <div class="col-md-8 type">
-                    <a href="#method___construct">__construct</a>(<a href="../../Predicate/Framework/Predicate.html"><abbr title="Predicate\Framework\Predicate">Predicate</abbr></a> $p1, <a href="../../Predicate/Framework/Predicate.html"><abbr title="Predicate\Framework\Predicate">Predicate</abbr></a> $p2, <a href="../../Predicate/Framework/Predicate.html"><abbr title="Predicate\Framework\Predicate">Predicate</abbr></a> $next)
+                    <a href="#method___construct">__construct</a>(mixed $arg = null)
         
-                                            <p>Composed predicate that represents the short-circuiting logical OR of this predicate and the
-other predicates</p>                </div>
+                                            <p>New instance of this predicate</p>                </div>
                 <div class="col-md-2"></div>
             </div>
                     <div class="row">
@@ -128,9 +124,9 @@ other predicates</p>                </div>
             <div id="method-details">
                     <div class="method-item">
                     <h3 id="method___construct">
-        <div class="location">at line         line 38</div>
+        <div class="location">at line         line 35</div>
         <code>                    
-    <strong>__construct</strong>(<a href="../../Predicate/Framework/Predicate.html"><abbr title="Predicate\Framework\Predicate">Predicate</abbr></a> $p1, <a href="../../Predicate/Framework/Predicate.html"><abbr title="Predicate\Framework\Predicate">Predicate</abbr></a> $p2, <a href="../../Predicate/Framework/Predicate.html"><abbr title="Predicate\Framework\Predicate">Predicate</abbr></a> $next)
+    <strong>__construct</strong>(mixed $arg = null)
         </code>
     </h3>
     <div class="details">
@@ -138,25 +134,14 @@ other predicates</p>                </div>
     
 
                     <div class="method-description">
-                                    <p>Composed predicate that represents the short-circuiting logical OR of this predicate and the
-other predicates</p>                                </div>
+                                    <p>New instance of this predicate</p>                                </div>
                 <div class="tags">
                             <h4>Parameters</h4>
 
                     <table class="table table-condensed">
                     <tr>
-                <td><a href="../../Predicate/Framework/Predicate.html"><abbr title="Predicate\Framework\Predicate">Predicate</abbr></a></td>
-                <td>$p1</td>
-                <td></td>
-            </tr>
-                    <tr>
-                <td><a href="../../Predicate/Framework/Predicate.html"><abbr title="Predicate\Framework\Predicate">Predicate</abbr></a></td>
-                <td>$p2</td>
-                <td></td>
-            </tr>
-                    <tr>
-                <td><a href="../../Predicate/Framework/Predicate.html"><abbr title="Predicate\Framework\Predicate">Predicate</abbr></a></td>
-                <td>$next</td>
+                <td>mixed</td>
+                <td>$arg</td>
                 <td></td>
             </tr>
             </table>
@@ -170,7 +155,7 @@ other predicates</p>                                </div>
             </div>
                     <div class="method-item">
                     <h3 id="method___invoke">
-        <div class="location">at line         line 49</div>
+        <div class="location">at line         line 43</div>
         <code>                    bool
     <strong>__invoke</strong>(mixed $args)
         </code>

@@ -40,12 +40,12 @@ final class XorP implements Predicate
     /**
      * @inheritdoc
      */
-    public function __invoke(...$subject): bool
+    public function __invoke(...$args): bool
     {
-        $result = intval(call_user_func_array($this->predicates[0], $subject));
+        $result = intval(call_user_func_array($this->predicates[0], $args));
 
         for ($i = 1, $l = count($this->predicates); $i < $l; ++$i) {
-            $result = $result  ^ intval(call_user_func_array($this->predicates[$i], $subject));
+            $result = $result  ^ intval(call_user_func_array($this->predicates[$i], $args));
         }
 
         return boolval($result);

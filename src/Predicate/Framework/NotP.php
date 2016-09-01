@@ -34,8 +34,8 @@ final class NotP implements Predicate
     /**
      * @inheritdoc
      */
-    public function __invoke(...$subject): bool
+    public function __invoke(...$args): bool
     {
-        return !call_user_func($this->predicate, ...$subject);
+        return !call_user_func($this->predicate, ...$args);
     }
 }

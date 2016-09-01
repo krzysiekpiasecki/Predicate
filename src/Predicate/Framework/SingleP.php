@@ -34,14 +34,14 @@ final class SingleP implements Predicate
     /**
      * @inheritdoc
      */
-    public function __invoke(...$subject): bool
+    public function __invoke(...$args): bool
     {
-        if (1 !== count($subject)) {
+        if (1 !== count($args)) {
             throw new \BadMethodCallException(
                 'This is the predicate of one subject'
             );
         }
 
-        return call_user_func_array($this->predicate, $subject);
+        return call_user_func_array($this->predicate, $args);
     }
 }

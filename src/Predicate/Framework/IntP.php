@@ -34,9 +34,9 @@ final class IntP implements Predicate
     /**
      * @inheritdoc
      */
-    public function __invoke(...$subject): bool
+    public function __invoke(...$args): bool
     {
-        foreach ($subject as $s) {
+        foreach ($args as $s) {
             if (false === is_int($s)) {
                 throw new \InvalidArgumentException(
                     'This predicate is only on int subject'
@@ -44,6 +44,6 @@ final class IntP implements Predicate
             }
         }
 
-        return call_user_func($this->predicate, ...$subject);
+        return call_user_func($this->predicate, ...$args);
     }
 }

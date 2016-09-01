@@ -35,7 +35,7 @@ class AndPTest extends \PHPUnit_Framework_TestCase
     public function testStopAfterFalse()
     {
         $this->assertFalse((new AndP(new FalseP, new class() implements Predicate {
-            public function __invoke(...$subject): bool
+            public function __invoke(...$args): bool
             {
                 throw new \RuntimeException('Fake predicate exception');
             }

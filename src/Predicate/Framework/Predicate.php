@@ -20,11 +20,11 @@ interface Predicate
      * Invokes a predicate on the subjects and returns the result that may be true or false
      * depending on the predicate subjects
      *
-     * @param mixed ...$subject A predicate subjects
+     * @param mixed ...$args A predicate subjects
      * @return bool May be true or false depending on the predicate subject
      * @throws \InvalidArgumentException Invalid type of predicate subject
      * @throws \BadMethodCallException Invalid count of predicate subjects
      * @throws \RuntimeException The other exceptions
      */
-    public function __invoke(...$subject): bool;
+    public function __invoke(...$args): bool;
 }
