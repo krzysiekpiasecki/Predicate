@@ -10,6 +10,6 @@ return new Sami\Sami(
         'title' => 'Predicate-Framework',
         'theme' => 'default',
         'include_parent_data' => true,
-        'default_opened_level' => 1
+        'default_opened_level' => 2
     )
 );
