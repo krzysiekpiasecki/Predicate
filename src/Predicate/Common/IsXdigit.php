@@ -14,7 +14,7 @@ use Predicate\Framework\Predicate;
 /**
  * Predicate that all input arguments contains only hexadecimal characters
  *
- * @see http://php.net/manual/en/function.ctype-lower.php ctype_xdigit
+ * @link http://php.net/manual/en/function.ctype-lower.php ctype_xdigit
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
  * @package Predicate\Common
  * @since 1.0

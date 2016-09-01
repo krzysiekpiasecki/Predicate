@@ -12,31 +12,26 @@ namespace Predicate\Common;
 use Predicate\Framework\Predicate;
 
 /**
- * Predicate that all input arguments are equal
+ * Predicate that all input arguments are array values
  *
+ * @link http://php.net/manual/en/function.is-array.php is_array
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
  * @package Predicate\Common
  * @since 1.0
  */
-final class EqualP implements Predicate
+final class IsArrayP implements Predicate
 {
     /**
      * @inheritdoc
      */
     public function __invoke(...$args): bool
     {
-        $result = true;
-
-        if (isset($args[0])) {
-            $first = $args[0];
-        }
-        for ($i = 1; $i < count($args); ++$i) {
-            $x = $args[$i];
-            if ($first != $x) {
+        foreach ($args as $a) {
+            if (false === is_array($a)) {
                 return false;
             }
         }
 
-        return $result;
+        return true;
     }
 }

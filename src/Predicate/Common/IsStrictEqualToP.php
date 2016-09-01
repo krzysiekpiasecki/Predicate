@@ -12,18 +12,18 @@ namespace Predicate\Common;
 use Predicate\Framework\Predicate;
 
 /**
- * Predicate that all input arguments are equal to a given argument
+ * Predicate that all input arguments are strictly equal to a given argument
  *
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
  * @package Predicate\Common
  * @since 1.0
  */
-final class EqualToP implements Predicate
+final class IsStrictEqualToP implements Predicate
 {
     /**
-     * All input arguments are compare for equality to this argument
+     * All input arguments are compare for strict equality to this argument
      *
-     * @var mixed Argument to compare for equality
+     * @var mixed Argument to compare for strict equality
      */
     private $arg;
 
@@ -45,12 +45,13 @@ final class EqualToP implements Predicate
         $target = $this->arg;
 
         if (0 === count($args)) {
-            return $target == null;
+            return $target === null;
         }
+
 
         for ($i = 0; $i < count($args); ++$i) {
             $x = $args[$i];
-            if ($target != $x) {
+            if ($target !== $x) {
                 return false;
             }
         }

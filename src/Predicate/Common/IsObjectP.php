@@ -12,20 +12,26 @@ namespace Predicate\Common;
 use Predicate\Framework\Predicate;
 
 /**
- * Predicate that all input arguments are uppercase strings
+ * Predicate that all input arguments are objects
  *
- * @link http://php.net/manual/en/function.ctype-upper.php ctype_upper
+ * @link http://php.net/manual/en/function.is-object.php is_object
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
  * @package Predicate\Common
  * @since 1.0
  */
-final class IsUpperP implements Predicate
+final class IsObjectP implements Predicate
 {
     /**
      * @inheritdoc
      */
     public function __invoke(...$args): bool
     {
-        return ctype_upper(implode('', $args));
+        foreach ($args as $a) {
+            if (false === is_object($a)) {
+                return false;
+            }
+        }
+
+        return true;
     }
 }

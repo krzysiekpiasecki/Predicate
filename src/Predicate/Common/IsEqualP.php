@@ -12,25 +12,31 @@ namespace Predicate\Common;
 use Predicate\Framework\Predicate;
 
 /**
- * Predicate that all input arguments are not null
-
+ * Predicate that all input arguments are equal
+ *
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
  * @package Predicate\Common
  * @since 1.0
  */
-final class NotNullP implements Predicate
+final class IsEqualP implements Predicate
 {
     /**
      * @inheritdoc
      */
     public function __invoke(...$args): bool
     {
-        foreach ($args as $a) {
-            if (null === $a) {
+        $result = true;
+
+        if (isset($args[0])) {
+            $first = $args[0];
+        }
+        for ($i = 1; $i < count($args); ++$i) {
+            $x = $args[$i];
+            if ($first != $x) {
                 return false;
             }
         }
 
-        return true;
+        return $result;
     }
 }

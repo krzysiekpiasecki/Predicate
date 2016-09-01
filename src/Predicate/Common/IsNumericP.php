@@ -12,20 +12,26 @@ namespace Predicate\Common;
 use Predicate\Framework\Predicate;
 
 /**
- * Predicate that all input arguments are uppercase strings
+ * Predicate that all input arguments are numeric values
  *
- * @link http://php.net/manual/en/function.ctype-upper.php ctype_upper
+ * @link http://php.net/manual/en/function.is-numeric.php is_numeric
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
  * @package Predicate\Common
  * @since 1.0
  */
-final class IsUpperP implements Predicate
+final class IsNumericP implements Predicate
 {
     /**
      * @inheritdoc
      */
     public function __invoke(...$args): bool
     {
-        return ctype_upper(implode('', $args));
+        foreach ($args as $a) {
+            if (false === is_numeric($a)) {
+                return false;
+            }
+        }
+
+        return true;
     }
 }

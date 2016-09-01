@@ -14,7 +14,7 @@ use Predicate\Framework\Predicate;
 /**
  * Predicate that all input arguments contains any printable characters except space
  *
- * @see http://php.net/manual/en/function.ctype-graph.php ctype_graph
+ * @link http://php.net/manual/en/function.ctype-graph.php ctype_graph
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
  * @package Predicate\Common
  * @since 1.0

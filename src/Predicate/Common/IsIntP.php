@@ -14,6 +14,7 @@ use Predicate\Framework\Predicate;
 /**
  * Predicate that all input arguments are int values
  *
+ * @link http://php.net/manual/en/function.is-int.php is_int
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
  * @package Predicate\Common
  * @since 1.0

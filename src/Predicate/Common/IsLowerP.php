@@ -14,7 +14,7 @@ use Predicate\Framework\Predicate;
 /**
  * Predicate that all input arguments are lowercase strings
  *
- * @see http://php.net/manual/en/function.ctype-lower.php ctype_lower
+ * @link http://php.net/manual/en/function.ctype-lower.php ctype_lower
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
  * @package Predicate\Common
  * @since 1.0

@@ -14,6 +14,7 @@ use Predicate\Framework\Predicate;
 /**
  * Predicate that all input arguments are float values
  *
+ * @link http://php.net/manual/en/function.is-float.php is_float
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
  * @package Predicate\Common
  * @since 1.0

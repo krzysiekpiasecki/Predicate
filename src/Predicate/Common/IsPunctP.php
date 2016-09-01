@@ -15,7 +15,7 @@ use Predicate\Framework\Predicate;
  * Predicate that all input arguments contains any printable character
  * which is not whitespace or an alphanumeric character
  *
- * @see http://php.net/manual/en/function.ctype-punct.php ctype_punct
+ * @link http://php.net/manual/en/function.ctype-punct.php ctype_punct
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
  * @package Predicate\Common
  * @since 1.0

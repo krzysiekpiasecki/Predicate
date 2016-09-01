@@ -12,31 +12,26 @@ namespace Predicate\Common;
 use Predicate\Framework\Predicate;
 
 /**
- * Predicate that all arguments are strictly equal
+ * Predicate that all input arguments are callable values
  *
+ * @link http://php.net/manual/en/function.is-callable.php is_callable
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
  * @package Predicate\Common
  * @since 1.0
  */
-final class StrictEqualP implements Predicate
+final class IsCallableP implements Predicate
 {
     /**
      * @inheritdoc
      */
     public function __invoke(...$args): bool
     {
-        $result = true;
-
-        if (isset($args[0])) {
-            $first = $args[0];
-        }
-        for ($i = 1; $i < count($args); ++$i) {
-            $x = $args[$i];
-            if ($first !== $x) {
+        foreach ($args as $a) {
+            if (false === is_callable($a)) {
                 return false;
             }
         }
 
-        return $result;
+        return true;
     }
 }

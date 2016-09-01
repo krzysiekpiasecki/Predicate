@@ -12,20 +12,26 @@ namespace Predicate\Common;
 use Predicate\Framework\Predicate;
 
 /**
- * Predicate that all input arguments are uppercase strings
+ * Predicate that all input arguments are null values
  *
- * @link http://php.net/manual/en/function.ctype-upper.php ctype_upper
+ * @link http://php.net/manual/en/function.is-null.php is_null
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
  * @package Predicate\Common
  * @since 1.0
  */
-final class IsUpperP implements Predicate
+final class IsNullP implements Predicate
 {
     /**
      * @inheritdoc
      */
     public function __invoke(...$args): bool
     {
-        return ctype_upper(implode('', $args));
+        foreach ($args as $a) {
+            if (null !== $a) {
+                return false;
+            }
+        }
+
+        return true;
     }
 }
