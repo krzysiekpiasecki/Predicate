@@ -34,10 +34,10 @@ final class FalseP implements Predicate
     /**
      * @inheritdoc
      */
-    public function __invoke(...$subject): bool
+    public function __invoke(...$args): bool
     {
         if ($this->predicate !== null) {
-            call_user_func_array($this->predicate, $subject);
+            call_user_func_array($this->predicate, $args);
         }
 
         return false;

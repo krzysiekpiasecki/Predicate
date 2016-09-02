@@ -41,10 +41,10 @@ final class IfP implements Predicate
     /**
      * @inheritDoc
      */
-    public function __invoke(...$subject): bool
+    public function __invoke(...$args): bool
     {
-        return true === call_user_func_array($this->predicate, $subject)
-            ? call_user_func_array($this->predicateTrue, $subject)
+        return true === call_user_func_array($this->predicate, $args)
+            ? call_user_func_array($this->predicateTrue, $args)
             : false;
     }
 }

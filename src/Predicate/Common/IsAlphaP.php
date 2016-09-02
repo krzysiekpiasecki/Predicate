@@ -14,7 +14,7 @@ use Predicate\Framework\Predicate;
 /**
  * Predicate that all input arguments are alphabetics strings
  *
- * @see http://php.net/manual/en/function.ctype-alpha.php ctype_alpha
+ * @link http://php.net/manual/en/function.ctype-alpha.php ctype_alpha
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
  * @package Predicate\Common
  * @since 1.0

@@ -14,7 +14,7 @@ use Predicate\Framework\Predicate;
 /**
  * Predicate that all input arguments contains only printable characters
  *
- * @see http://php.net/manual/en/function.ctype-print.php ctype_print
+ * @link http://php.net/manual/en/function.ctype-print.php ctype_print
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
  * @package Predicate\Common
  * @since 1.0

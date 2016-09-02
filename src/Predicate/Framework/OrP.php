@@ -46,10 +46,10 @@ final class OrP implements Predicate
     /**
      * @inheritdoc
      */
-    public function __invoke(...$subject): bool
+    public function __invoke(...$args): bool
     {
         foreach ($this->predicates as $predicate) {
-            if (true === $predicate(...$subject)) {
+            if (true === $predicate(...$args)) {
                 return true;
             }
         }

@@ -14,7 +14,7 @@ use Predicate\Framework\Predicate;
 /**
  * Predicate that all input arguments are alphanumeric strings
  *
- * @see http://php.net/manual/en/function.ctype-alnum.php ctype_alnum
+ * @link http://php.net/manual/en/function.ctype-alnum.php ctype_alnum
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
  * @package Predicate\Common
  * @since 1.0

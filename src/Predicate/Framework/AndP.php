@@ -45,10 +45,10 @@ final class AndP implements Predicate
     /**
      * @inheritdoc
      */
-    public function __invoke(...$subject): bool
+    public function __invoke(...$args): bool
     {
         foreach ($this->predicates as $predicate) {
-            if (false === $predicate(...$subject)) {
+            if (false === $predicate(...$args)) {
                 return false;
             }
         }

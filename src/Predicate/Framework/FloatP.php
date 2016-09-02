@@ -34,9 +34,9 @@ final class FloatP implements Predicate
     /**
      * @inheritdoc
      */
-    public function __invoke(...$subject): bool
+    public function __invoke(...$args): bool
     {
-        foreach ($subject as $s) {
+        foreach ($args as $s) {
             if (false === is_float($s)) {
                 throw new \InvalidArgumentException(
                     'This predicate is only on float subject'
@@ -44,6 +44,6 @@ final class FloatP implements Predicate
             }
         }
 
-        return call_user_func($this->predicate, ...$subject);
+        return call_user_func($this->predicate, ...$args);
     }
 }

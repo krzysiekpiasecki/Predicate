@@ -12,13 +12,14 @@ namespace Predicate\Common;
 use Predicate\Framework\Predicate;
 
 /**
- * Predicate that all input arguments are not null
-
+ * Predicate that all input arguments are array values
+ *
+ * @link http://php.net/manual/en/function.is-array.php is_array
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
  * @package Predicate\Common
  * @since 1.0
  */
-final class NotNullP implements Predicate
+final class IsArrayP implements Predicate
 {
     /**
      * @inheritdoc
@@ -26,7 +27,7 @@ final class NotNullP implements Predicate
     public function __invoke(...$args): bool
     {
         foreach ($args as $a) {
-            if (null === $a) {
+            if (false === is_array($a)) {
                 return false;
             }
         }

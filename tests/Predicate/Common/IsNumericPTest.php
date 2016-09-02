@@ -8,15 +8,15 @@
 namespace Predicate\Common;
 
 /**
- * NotNullP test
+ * IsNumericP test
  *
- * @see NotNullP
- * @coversDefaultClass Framework\Common\NotNullP
+ * @see IsNumericP
+ * @coversDefaultClass Framework\Common\IsNumericP
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
  * @package Predicate\Common
  * @since 1.0
  */
-class NotNullPTest extends \PHPUnit_Framework_TestCase
+class IsNumericPTest extends \PHPUnit_Framework_TestCase
 {
     /**
      * @covers ::__construct
@@ -24,7 +24,7 @@ class NotNullPTest extends \PHPUnit_Framework_TestCase
      */
     public function testInvoke()
     {
-        $this->assertTrue((new NotNullP())([], 1.22, '', 0, false, ['', false, 1], new \stdClass));
-        $this->assertFalse((new NotNullP())(1, 2.22, true, null));
+        $this->assertTrue((new IsNumericP())('1', '1.23', 1, 1.22, 0x539, 0b10100111001, 1337e0));
+        $this->assertFalse((new IsNumericP())(true, false, true, 1));
     }
 }

@@ -14,6 +14,7 @@ use Predicate\Framework\Predicate;
 /**
  * Predicate that all input arguments are string values
  *
+ * @link http://php.net/manual/en/function.is-numeric.php is_numeric
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
  * @package Predicate\Common
  * @since 1.0

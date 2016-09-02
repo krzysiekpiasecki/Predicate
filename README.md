@@ -10,8 +10,8 @@ The PHP framework for creating the predicates that accepts input arguments and r
 
 A predicate is commonly understood to be a Boolean-valued function P: X→ {true, false}, called the predicate on X. The result of the predicate may be true or false depending on the values of its arguments. 
 
-<br>
 
+<br>
 
 ### Documentation
 

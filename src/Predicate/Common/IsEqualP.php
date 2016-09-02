@@ -12,27 +12,27 @@ namespace Predicate\Common;
 use Predicate\Framework\Predicate;
 
 /**
- * Predicate that all arguments are strictly equal
+ * Predicate that all input arguments are equal
  *
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
  * @package Predicate\Common
  * @since 1.0
  */
-final class StrictEqualP implements Predicate
+final class IsEqualP implements Predicate
 {
     /**
      * @inheritdoc
      */
-    public function __invoke(...$subject): bool
+    public function __invoke(...$args): bool
     {
         $result = true;
 
-        if (isset($subject[0])) {
-            $first = $subject[0];
+        if (isset($args[0])) {
+            $first = $args[0];
         }
-        for ($i = 1; $i < count($subject); ++$i) {
-            $x = $subject[$i];
-            if ($first !== $x) {
+        for ($i = 1; $i < count($args); ++$i) {
+            $x = $args[$i];
+            if ($first != $x) {
                 return false;
             }
         }

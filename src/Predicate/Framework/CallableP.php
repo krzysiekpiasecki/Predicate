@@ -37,9 +37,9 @@ final class CallableP implements Predicate
     /**
      * @inheritdoc
      */
-    public function __invoke(...$subject): bool
+    public function __invoke(...$args): bool
     {
-        $result = call_user_func_array($this->callable, $subject);
+        $result = call_user_func_array($this->callable, $args);
 
         if (false === is_bool($result)) {
             throw new \RuntimeException(

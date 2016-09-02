@@ -14,7 +14,7 @@ use Predicate\Framework\Predicate;
 /**
  * Predicate that all input arguments contains only whitespace characters
  *
- * @see http://php.net/manual/en/function.ctype-space.php ctype_space
+ * @link http://php.net/manual/en/function.ctype-space.php ctype_space
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
  * @package Predicate\Common
  * @since 1.0

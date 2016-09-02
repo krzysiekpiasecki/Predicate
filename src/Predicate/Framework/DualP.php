@@ -34,14 +34,14 @@ final class DualP implements Predicate
     /**
      * @inheritdoc
      */
-    public function __invoke(...$subject): bool
+    public function __invoke(...$args): bool
     {
-        if (2 !== count($subject)) {
+        if (2 !== count($args)) {
             throw new \BadMethodCallException(
                 'This is the predicate of two subjects'
             );
         }
 
-        return call_user_func_array($this->predicate, $subject);
+        return call_user_func_array($this->predicate, $args);
     }
 }
