@@ -18,7 +18,7 @@ use Predicate\Framework\Predicate;
  * @package Predicate\Common
  * @since 1.0
  */
-final class IsStrictEqualP implements Predicate
+final class IsSameP implements Predicate
 {
     /**
      * @inheritdoc

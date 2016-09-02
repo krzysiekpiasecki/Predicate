@@ -18,7 +18,7 @@ use Predicate\Framework\Predicate;
  * @package Predicate\Common
  * @since 1.0
  */
-final class IsStrictEqualToP implements Predicate
+final class IsSameAsP implements Predicate
 {
     /**
      * All input arguments are compare for strict equality to this argument
