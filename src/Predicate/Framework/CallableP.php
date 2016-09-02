@@ -16,7 +16,7 @@ namespace Predicate\Framework;
  * @package Framework\Framework
  * @since 1.0
  */
-final class InvokeP implements Predicate
+final class CallableP implements Predicate
 {
     /**
      * @var callable

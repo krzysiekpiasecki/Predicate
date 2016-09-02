@@ -8,10 +8,10 @@
 namespace Predicate\Framework;
 
 /**
- * InvokeP test
+ * CallableP test
  *
  * @see CallP
- * @coversDefaultClass Framework\Framework\InvokeP
+ * @coversDefaultClass Framework\Framework\CallableP
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
  * @package Framework\Framework
  * @since 1.0
@@ -24,8 +24,8 @@ class InvokePTest extends \PHPUnit_Framework_TestCase
      */
     public function testInvoke()
     {
-        $this->assertTrue((new InvokeP('is_string'))('1'));
-        $this->assertFalse((new InvokeP('is_string'))(1));
+        $this->assertTrue((new CallableP('is_string'))('1'));
+        $this->assertFalse((new CallableP('is_string'))(1));
     }
 
     /**
@@ -36,7 +36,7 @@ class InvokePTest extends \PHPUnit_Framework_TestCase
      */
     public function testInvokeInnerEvaluation()
     {
-        $p = new InvokeP(function ($subject) {
+        $p = new CallableP(function ($subject) {
             return 1;
         });
 

@@ -1,6 +1,6 @@
 # __Predicate__
 
-The PHP FRAMEWORK for creating the predicates that accepts input arguments and returns boolean value
+The PHP framework for creating the predicates that accepts input arguments and returns boolean value
 
 ![img](https://krzysiekpiasecki.github.io/predicate/img/theme.png)
 
