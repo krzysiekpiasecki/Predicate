@@ -15,6 +15,8 @@ namespace P;
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
  * @package P
  * @since 1.0
+ * @param mixed $x Predicate argument
+ * @return bool May be true or false depending on the x argument
  */
 function nullp($x): bool
 {
