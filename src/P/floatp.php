@@ -12,6 +12,12 @@ namespace P;
 /**
  * Predicate that x is a float value
  *
+ * Example of usage:
+ * <pre>
+ * \P\floatp(1.22); // true
+ * \P\floatp('1.22'); // false
+ * </pre>
+ *
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
  * @package P
  * @since 1.0

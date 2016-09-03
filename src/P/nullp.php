@@ -12,6 +12,12 @@ namespace P;
 /**
  * Predicate that x is a null
  *
+ * Example of usage:
+ * <pre>
+ * \P\nullp(null); // true
+ * \P\nullp(false); // false
+ * </pre>
+ *
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
  * @package P
  * @since 1.0

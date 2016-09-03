@@ -12,6 +12,12 @@ namespace P;
 /**
  * Predicate that x is an int value
  *
+ * Example of usage:
+ * <pre>
+ * \P\intp(1); // true
+ * \P\intp('1'); // false
+ * </pre>
+ *
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
  * @package P
  * @since 1.0
