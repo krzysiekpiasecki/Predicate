@@ -13,5 +13,7 @@ array_map(function (string $p) {
         )
     );
 }, array(
-    'nullp'
+    'nullp',
+    'intp',
+    'floatp'
 ));
