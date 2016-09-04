@@ -20,5 +20,8 @@ array_map(function (string $p) {
     'boolp',
     'arrayp',
     'objectp',
-    'resourcep'
+    'resourcep',
+    'stringp',
+    'scalarp',
+    'numericp'
 ));
