@@ -23,5 +23,9 @@ array_map(function (string $p) {
     'resourcep',
     'stringp',
     'scalarp',
-    'numericp'
+    'numericp',
+    'emptyp',
+    'callablep',
+    'upperp',
+    'lowerp'
 ));
