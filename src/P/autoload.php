@@ -14,8 +14,10 @@ array_map(function (string $p) {
     );
 }, array(
     'notp',
-        
     'nullp',
     'intp',
-    'floatp'
+    'floatp',
+    'boolp',
+    'arrayp'
+
 ));
