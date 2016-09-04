@@ -10,21 +10,20 @@ declare(strict_types=1);
 namespace P;
 
 /**
- * Test {@see floatp}.
+ * Test {@see resourcep}.
  *
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
  * @package P
  * @since 1.0
  */
-class FloatpTest extends \PHPUnit_Framework_TestCase
+class ResourcepTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @covers ::\P\floatp
+     * @covers ::\P\resourcep
      */
-    public function testFloatp()
+    public function testResourceP()
     {
-        $this->assertTrue(floatp(1.22));
-        $this->assertFalse(floatp('1.22'));
-        $this->assertFalse(floatp(1));
+        $this->assertTrue(resourcep(tmpfile()));
+        $this->assertFalse(resourcep(__FILE__));
     }
 }

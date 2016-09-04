@@ -18,6 +18,7 @@ array_map(function (string $p) {
     'intp',
     'floatp',
     'boolp',
-    'arrayp'
-
+    'arrayp',
+    'objectp',
+    'resourcep'
 ));

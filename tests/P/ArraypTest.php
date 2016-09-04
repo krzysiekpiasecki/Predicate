@@ -21,7 +21,7 @@ class ArraypTest extends \PHPUnit_Framework_TestCase
     /**
      * @covers ::\P\arrayp
      */
-    public function testarrayp()
+    public function testArrayp()
     {
         $this->assertTrue(arrayp([]));
         $this->assertTrue(arrayp([1, 2, false, 'Hello World!']));

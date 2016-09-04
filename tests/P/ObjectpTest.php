@@ -10,21 +10,21 @@ declare(strict_types=1);
 namespace P;
 
 /**
- * Test {@see floatp}.
+ * Test {@see objectp}.
+  *.
  *
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
  * @package P
  * @since 1.0
  */
-class FloatpTest extends \PHPUnit_Framework_TestCase
+class ObjectpTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @covers ::\P\floatp
+     * @covers ::\P\objectp
      */
-    public function testFloatp()
+    public function testObjectp()
     {
-        $this->assertTrue(floatp(1.22));
-        $this->assertFalse(floatp('1.22'));
-        $this->assertFalse(floatp(1));
+        $this->assertTrue(objectp($this));
+        $this->assertFalse(objectp(__CLASS__));
     }
 }
