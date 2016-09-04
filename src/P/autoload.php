@@ -14,6 +14,8 @@ array_map(function (string $p) {
     );
 }, array(
     'notp',
+    'equalp',
+    'samep',
     'nullp',
     'intp',
     'floatp',
