@@ -26,6 +26,7 @@ array_map(function (string $p) {
     'objectp',
     'resourcep',
     'stringp',
+    'charp',
     'scalarp',
     'numericp',
     'emptyp',
