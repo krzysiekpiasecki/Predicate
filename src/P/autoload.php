@@ -31,5 +31,7 @@ array_map(function (string $p) {
     'emptyp',
     'callablep',
     'upperp',
-    'lowerp'
+    'lowerp',
+    'evenp',
+    'oddp'
 ));
