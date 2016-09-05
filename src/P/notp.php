@@ -10,7 +10,7 @@ declare(strict_types=1);
 namespace P;
 
 /**
- * Composed predicate that represents the logical negation of other predicate.
+ * Composed predicate that represents the logical negation of the other predicate.
  *
  * <pre>
  * $p = \P\notp('P\intp');

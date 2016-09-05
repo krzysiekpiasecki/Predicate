@@ -10,7 +10,7 @@ declare(strict_types=1);
 namespace P;
 
 /**
- * Predicate that x is a boolean value
+ * Predicate that x is a boolean
  *
  * Example of usage:
  * <pre>

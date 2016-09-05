@@ -10,18 +10,18 @@ declare(strict_types=1);
 namespace P;
 
 /**
- * Composed predicate that represents a short-circuiting
- * logical AND on the list of the predicates
+ * Composed predicate that represents a short-circuiting logical OR.
  *
  * Example of usage:
  * <pre>
- * $p = \P\andp(
+ * $p = \P\orp(
  *    'P\intp',
- *    'P\evenp',
+ *    'P\stringp',
  * );
  *
  * $p(2); // true
- * $p(3); // false
+ * $p('Hello'); // true
+ * $p(false); // false
  * </pre>
  *
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
@@ -38,6 +38,7 @@ function orp(callable ...$ps): callable
                 return true;
             }
         }
+        
         return false;
     };
 }

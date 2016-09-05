@@ -10,8 +10,7 @@ declare(strict_types=1);
 namespace P;
 
 /**
- * Composed predicate that represents a short-circuiting
- * logical AND on the list of the predicates
+ * Composed predicate that represents a short-circuiting logical AND
  *
  * Example of usage:
  * <pre>

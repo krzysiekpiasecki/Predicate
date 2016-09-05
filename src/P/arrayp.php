@@ -10,7 +10,7 @@ declare(strict_types=1);
 namespace P;
 
 /**
- * Predicate that x is an array value
+ * Predicate that x is an array
  *
  * Example of usage:
  * <pre>

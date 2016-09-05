@@ -10,7 +10,7 @@ declare(strict_types=1);
 namespace P;
 
 /**
- * Predicate that x is a float value
+ * Predicate that x is a float
  *
  * Example of usage:
  * <pre>

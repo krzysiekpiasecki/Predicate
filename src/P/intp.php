@@ -10,7 +10,7 @@ declare(strict_types=1);
 namespace P;
 
 /**
- * Predicate that x is an int value
+ * Predicate that x is an integer
  *
  * Example of usage:
  * <pre>

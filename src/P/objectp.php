@@ -10,7 +10,7 @@ declare(strict_types=1);
 namespace P;
 
 /**
- * Predicate that x is an object value
+ * Predicate that x is an object
  *
  * Example of usage:
  * <pre>
