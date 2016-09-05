@@ -2,7 +2,7 @@
 
 The PHP framework for creating the predicates that accepts input arguments and returns boolean value
 
-![img](https://krzysiekpiasecki.github.io/predicate/img/theme.png)
+![img](https://krzysiekpiasecki.github.io/Predicate/img/theme.png)
 
 <br>
 
@@ -15,7 +15,7 @@ A predicate is commonly understood to be a Boolean-valued function P: X→ {true
 
 ### Documentation
 
-Are you interested in more details? [Here's the complete documentation of API](https://krzysiekpiasecki.github.io/predicate/api/index.html).
+Are you interested in more details? [Here's the complete documentation of API](https://krzysiekpiasecki.github.io/Predicate/api/index.html).
 
 <br>
 
