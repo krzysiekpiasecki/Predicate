@@ -13,7 +13,7 @@ namespace P;
  * Test {@see upperp}.
  *
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
- * @package P
+ * @package p
  * @since 1.0
  */
 class UpperpTest extends \PHPUnit_Framework_TestCase

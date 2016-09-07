@@ -25,7 +25,7 @@ namespace p;
  * </pre>
  *
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
- * @package P
+ * @package p
  * @since 1.0
  * @param callable $ps List of the predicates
  * @return bool May be true or false depending on the x argument

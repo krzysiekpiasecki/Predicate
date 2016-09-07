@@ -16,7 +16,7 @@ use Predicate\Framework\Predicate;
  *
  * @link http://php.net/manual/en/function.ctype-graph.php ctype_graph
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
- * @package Predicate\Common
+ * @package predicate\Common
  * @since 1.0
  */
 final class IsGraphP implements Predicate

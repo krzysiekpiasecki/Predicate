@@ -15,7 +15,7 @@ namespace Predicate\Common;
  * @see IsStringP
  * @coversDefaultClass Framework\Common\IsStringP
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
- * @package Predicate\Common
+ * @package predicate\Common
  * @since 1.0
  */
 class IsStringPTest extends \PHPUnit_Framework_TestCase

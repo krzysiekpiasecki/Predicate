@@ -15,7 +15,7 @@ use Predicate\Framework\Predicate;
  * Predicate that all input arguments are equal to a given argument
  *
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
- * @package Predicate\Common
+ * @package predicate\Common
  * @since 1.0
  */
 final class IsEqualToP implements Predicate

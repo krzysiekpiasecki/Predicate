@@ -16,7 +16,7 @@ use Predicate\Framework\Predicate;
  *
  * @link http://php.net/manual/en/function.ctype-upper.php ctype_upper
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
- * @package Predicate\Common
+ * @package predicate\Common
  * @since 1.0
  */
 final class IsUpperP implements Predicate

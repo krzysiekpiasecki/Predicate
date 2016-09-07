@@ -15,7 +15,7 @@ namespace Predicate\Common;
  * @see IsPunctP
  * @coversDefaultClass Framework\Common\IsPunctP
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
- * @package Predicate\Common
+ * @package predicate\Common
  * @since 1.0
  */
 class IsPunctPTest extends \PHPUnit_Framework_TestCase

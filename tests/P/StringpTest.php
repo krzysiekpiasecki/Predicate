@@ -13,7 +13,7 @@ namespace P;
  * Test {@see stringp}.
  *
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
- * @package P
+ * @package p
  * @since 1.0
  */
 class StringpTest extends \PHPUnit_Framework_TestCase

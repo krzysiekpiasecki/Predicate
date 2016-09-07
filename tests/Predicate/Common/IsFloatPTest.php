@@ -13,7 +13,7 @@ namespace Predicate\Common;
  * @see IsFloatP
  * @coversDefaultClass Framework\Common\IsFloatP
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
- * @package Predicate\Common
+ * @package predicate\Common
  * @since 1.0
  */
 class IsFloatPTest extends \PHPUnit_Framework_TestCase

@@ -15,7 +15,7 @@ namespace Predicate\Common;
  * @see IsDigitP
  * @coversDefaultClass Framework\Common\IsDigitP
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
- * @package Predicate\Common
+ * @package predicate\Common
  * @since 1.0
  */
 class IsDigitPTest extends \PHPUnit_Framework_TestCase

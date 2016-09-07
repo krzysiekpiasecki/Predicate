@@ -16,7 +16,7 @@ use Predicate\Framework\Predicate;
  *
  * @link http://php.net/manual/en/function.ctype-lower.php ctype_xdigit
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
- * @package Predicate\Common
+ * @package predicate\Common
  * @since 1.0
  */
 final class IsXdigit implements Predicate

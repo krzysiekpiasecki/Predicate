@@ -13,7 +13,7 @@ namespace P;
  * Test {@see orp}.
  *
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
- * @package P
+ * @package p
  * @since 1.0
  */
 class OrpTest extends \PHPUnit_Framework_TestCase

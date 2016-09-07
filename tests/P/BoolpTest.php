@@ -7,13 +7,13 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace p;
+namespace P;
 
 /**
  * Test {@see boolp}.
  *
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
- * @package P
+ * @package p
  * @since 1.0
  */
 class BoolpTest extends \PHPUnit_Framework_TestCase

@@ -13,7 +13,7 @@ namespace Predicate\Common;
  * @see IsNumericP
  * @coversDefaultClass Framework\Common\IsNumericP
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
- * @package Predicate\Common
+ * @package predicate\Common
  * @since 1.0
  */
 class IsNumericPTest extends \PHPUnit_Framework_TestCase

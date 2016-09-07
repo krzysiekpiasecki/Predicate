@@ -15,7 +15,7 @@ namespace Predicate\Common;
  * @see IsAlnumP
  * @coversDefaultClass Framework\Common\IsAlnumP
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
- * @package Predicate\Common
+ * @package predicate\Common
  * @since 1.0
  */
 class IsAlnumPTest extends \PHPUnit_Framework_TestCase

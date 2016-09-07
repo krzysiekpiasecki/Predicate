@@ -15,7 +15,7 @@ namespace Predicate\Common;
  * @see IsPrintP
  * @coversDefaultClass Framework\Common\IsPrintP
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
- * @package Predicate\Common
+ * @package predicate\Common
  * @since 1.0
  */
 class IsPrintPTest extends \PHPUnit_Framework_TestCase

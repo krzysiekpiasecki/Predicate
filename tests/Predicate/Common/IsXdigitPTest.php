@@ -15,7 +15,7 @@ namespace Predicate\Common;
  * @see IsXdigit
  * @coversDefaultClass Framework\Common\IsXdigit
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
- * @package Predicate\Common
+ * @package predicate\Common
  * @since 1.0
  */
 class IsXdigitPTest extends \PHPUnit_Framework_TestCase

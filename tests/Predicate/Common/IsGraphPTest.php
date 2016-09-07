@@ -15,7 +15,7 @@ namespace Predicate\Common;
  * @see IsGraphP
  * @coversDefaultClass Framework\Common\IsGraphP
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
- * @package Predicate\Common
+ * @package predicate\Common
  * @since 1.0
  */
 class IsGraphPTest extends \PHPUnit_Framework_TestCase

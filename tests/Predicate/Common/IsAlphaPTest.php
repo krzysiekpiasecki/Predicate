@@ -15,7 +15,7 @@ namespace Predicate\Common;
  * @see IsAlphaP
  * @coversDefaultClass Framework\Common\IsAlphaP
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
- * @package Predicate\Common
+ * @package predicate\Common
  * @since 1.0
  */
 class IsAlphaPTest extends \PHPUnit_Framework_TestCase

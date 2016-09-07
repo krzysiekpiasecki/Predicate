@@ -13,7 +13,7 @@ namespace Predicate\Common;
  * @see IsEmptyP
  * @coversDefaultClass Framework\Common\IsEmptyP
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
- * @package Predicate\Common
+ * @package predicate\Common
  * @since 1.0
  */
 class IsEmptyPTest extends \PHPUnit_Framework_TestCase

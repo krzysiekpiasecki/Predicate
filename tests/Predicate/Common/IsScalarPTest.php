@@ -13,7 +13,7 @@ namespace Predicate\Common;
  * @see IsScalarP
  * @coversDefaultClass Framework\Common\IsScalarP
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
- * @package Predicate\Common
+ * @package predicate\Common
  * @since 1.0
  */
 class IsScalarPTest extends \PHPUnit_Framework_TestCase

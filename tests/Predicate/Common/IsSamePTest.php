@@ -15,7 +15,7 @@ namespace Predicate\Common;
  * @see IsSameP
  * @coversDefaultClass Framework\Common\IsSameP
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
- * @package Predicate\Common
+ * @package predicate\Common
  * @since 1.0
  */
 class IsSamePTest extends \PHPUnit_Framework_TestCase

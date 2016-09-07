@@ -19,7 +19,7 @@ namespace p;
  * </pre>
  *
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
- * @package P
+ * @package p
  * @since 1.0
  * @param mixed $x Predicate argument
  * @param mixed $y The other argument

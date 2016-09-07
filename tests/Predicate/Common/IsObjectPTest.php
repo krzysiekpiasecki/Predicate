@@ -13,7 +13,7 @@ namespace Predicate\Common;
  * @see IsObjectP
  * @coversDefaultClass Framework\Common\IsObjectP
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
- * @package Predicate\Common
+ * @package predicate\Common
  * @since 1.0
  */
 class IsObjectPTest extends \PHPUnit_Framework_TestCase

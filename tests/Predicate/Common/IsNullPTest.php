@@ -13,7 +13,7 @@ namespace Predicate\Common;
  * @see IsNullP
  * @coversDefaultClass Framework\Common\IsNullP
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
- * @package Predicate\Common
+ * @package predicate\Common
  * @since 1.0
  */
 class IsNullPTest extends \PHPUnit_Framework_TestCase

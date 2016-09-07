@@ -13,7 +13,7 @@ namespace Predicate\Common;
  * @see IsIntP
  * @coversDefaultClass Framework\Common\IsIntP
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
- * @package Predicate\Common
+ * @package predicate\Common
  * @since 1.0
  */
 class IsIntPTest extends \PHPUnit_Framework_TestCase

@@ -13,7 +13,7 @@ namespace Predicate\Common;
  * @see IsBoolP
  * @coversDefaultClass Framework\Common\IsBoolP
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
- * @package Predicate\Common
+ * @package predicate\Common
  * @since 1.0
  */
 class IsBoolPTest extends \PHPUnit_Framework_TestCase

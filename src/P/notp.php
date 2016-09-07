@@ -19,7 +19,7 @@ namespace p;
  * </pre>
  *
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
- * @package P
+ * @package p
  * @since 1.0
  * @param callable $p A negated predicate
  * @return callable A predicate that represents the logical negation of other predicate

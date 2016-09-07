@@ -15,7 +15,7 @@ namespace Predicate\Common;
  * @see IsEqualP
  * @coversDefaultClass Framework\Common\IsEqualP
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
- * @package Predicate\Common
+ * @package predicate\Common
  * @since 1.0
  */
 class IsEqualPTest extends \PHPUnit_Framework_TestCase

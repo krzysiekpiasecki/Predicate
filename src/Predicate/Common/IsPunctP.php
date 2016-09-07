@@ -17,7 +17,7 @@ use Predicate\Framework\Predicate;
  *
  * @link http://php.net/manual/en/function.ctype-punct.php ctype_punct
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
- * @package Predicate\Common
+ * @package predicate\Common
  * @since 1.0
  */
 final class IsPunctP implements Predicate
