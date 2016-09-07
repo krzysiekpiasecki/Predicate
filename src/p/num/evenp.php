@@ -14,8 +14,8 @@ namespace p\num;
  *
  * Example of usage:
  * <pre>
- * \p\evenp(2); // true
- * \p\evenp(3); // false
+ * p\num\evenp(2); // true
+ * p\num\evenp(3); // false
  * </pre>
  *
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>

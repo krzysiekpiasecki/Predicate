@@ -19,7 +19,7 @@ namespace p\num;
 class OddpTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @covers ::\p\oddp
+     * @covers ::p\num\oddp
      */
     public function testOddp()
     {

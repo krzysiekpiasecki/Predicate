@@ -14,8 +14,8 @@ namespace p\num;
  *
  * Example of usage:
  * <pre>
- * \p\oddp(3); // true
- * \p\oddp(2); // false
+ * p\num\oddp(3); // true
+ * p\num\oddp(2); // false
  * </pre>
  *
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>

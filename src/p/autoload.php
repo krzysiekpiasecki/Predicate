@@ -2,6 +2,9 @@
 
 declare(strict_types=1);
 
+const intp = '\p\intp';
+const floatp = '\p\floatp';
+
 require_once 'str/lowerp.php';
 require_once 'str/upperp.php';
 require_once 'str/charp.php';

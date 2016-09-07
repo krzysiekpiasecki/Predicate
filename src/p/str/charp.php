@@ -14,8 +14,8 @@ namespace p\str;
  *
  * Example of usage:
  * <pre>
- * \p\charp('H'); // true
- * \p\charp('Hello'); // false
+ * p\str\charp('H'); // true
+ * p\str\charp('Hello'); // false
  * </pre>
  *
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>

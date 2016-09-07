@@ -19,7 +19,7 @@ namespace p\num;
 class EvenpTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @covers ::\p\evenp
+     * @covers ::p\num\evenp
      */
     public function testEvenp()
     {
