@@ -7,15 +7,15 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace P;
+namespace p;
 
 /**
  * Predicate that x is an empty
  *
  * Example of usage:
  * <pre>
- * \P\empty([]); // true
- * \P\empty([1,2]); // false
+ * \p\empty([]); // true
+ * \p\empty([1,2]); // false
  * </pre>
  *
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>

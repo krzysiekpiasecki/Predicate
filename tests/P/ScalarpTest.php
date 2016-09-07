@@ -19,7 +19,7 @@ namespace P;
 class ScalarpTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @covers ::\P\scalarp
+     * @covers ::\p\scalarp
      */
     public function testScalarp()
     {

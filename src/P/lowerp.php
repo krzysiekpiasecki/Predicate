@@ -7,15 +7,15 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace P;
+namespace p;
 
 /**
  * Predicate that x is a lowercase string
  *
  * Example of usage:
  * <pre>
- * \P\lowerp('hello'); // true
- * \P\lowerp('Hello'); // false
+ * \p\lowerp('hello'); // true
+ * \p\lowerp('Hello'); // false
  * </pre>
  *
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>

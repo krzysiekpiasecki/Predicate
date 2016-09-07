@@ -19,7 +19,7 @@ namespace P;
 class SamepTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @covers ::\P\samep
+     * @covers ::\p\samep
      */
     public function testSamep()
     {

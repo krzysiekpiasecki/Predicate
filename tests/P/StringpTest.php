@@ -19,7 +19,7 @@ namespace P;
 class StringpTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @covers ::\P\stringp
+     * @covers ::\p\stringp
      */
     public function testStringp()
     {

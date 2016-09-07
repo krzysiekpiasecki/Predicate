@@ -7,7 +7,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace P;
+namespace p;
 
 /**
  * Test {@see evenp}.
@@ -19,7 +19,7 @@ namespace P;
 class EvenpTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @covers ::\P\evenp
+     * @covers ::\p\evenp
      */
     public function testEvenp()
     {

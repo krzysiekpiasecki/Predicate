@@ -7,15 +7,15 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace P;
+namespace p;
 
 /**
  * Predicate that x is a char
  *
  * Example of usage:
  * <pre>
- * \P\charp('H'); // true
- * \P\charp('Hello'); // false
+ * \p\charp('H'); // true
+ * \p\charp('Hello'); // false
  * </pre>
  *
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>

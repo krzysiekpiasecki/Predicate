@@ -7,15 +7,15 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace P;
+namespace p;
 
 /**
  * Predicate that x is an integer
  *
  * Example of usage:
  * <pre>
- * \P\intp(1); // true
- * \P\intp('1'); // false
+ * \p\intp(1); // true
+ * \p\intp('1'); // false
  * </pre>
  *
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>

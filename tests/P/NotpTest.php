@@ -7,7 +7,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace P;
+namespace p;
 
 /**
  * Test {@see notp}.
@@ -19,18 +19,18 @@ namespace P;
 class NotpTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @covers ::\P\notp
+     * @covers ::\p\notp
      */
     public function testNotp()
     {
         $this->assertTrue(
             notp(
-                'P\intp'
+                'p\intp'
             )(1.22)
         );
         $this->assertFalse(
             notp(
-                'P\intp'
+                'p\intp'
             )(1)
         );
     }

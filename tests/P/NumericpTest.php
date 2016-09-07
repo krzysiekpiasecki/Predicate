@@ -7,7 +7,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace P;
+namespace p;
 
 /**
  * Test {@see numericp}.
@@ -19,7 +19,7 @@ namespace P;
 class NumericpTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @covers ::\P\numericp
+     * @covers ::\p\numericp
      */
     public function testNumericp()
     {

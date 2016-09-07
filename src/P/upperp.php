@@ -7,15 +7,15 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace P;
+namespace p;
 
 /**
  * Predicate that x is an uppercase string
  *
  * Example of usage:
  * <pre>
- * \P\upperp('HELLO'); // true
- * \P\upperp('Hello'); // false
+ * \p\upperp('HELLO'); // true
+ * \p\upperp('Hello'); // false
  * </pre>
  *
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>

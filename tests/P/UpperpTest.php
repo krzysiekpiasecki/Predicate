@@ -19,7 +19,7 @@ namespace P;
 class UpperpTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @covers ::\P\upperp
+     * @covers ::\p\upperp
      */
     public function testUpperp()
     {

@@ -7,7 +7,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace P;
+namespace p;
 
 /**
  * Test {@see floatp}.
@@ -19,7 +19,7 @@ namespace P;
 class FloatpTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @covers ::\P\floatp
+     * @covers ::\p\floatp
      */
     public function testFloatp()
     {

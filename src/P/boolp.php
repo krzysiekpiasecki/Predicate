@@ -7,15 +7,15 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace P;
+namespace p;
 
 /**
  * Predicate that x is a boolean
  *
  * Example of usage:
  * <pre>
- * \P\boolp(false); // true
- * \P\boolp('true'); // false
+ * \p\boolp(false); // true
+ * \p\boolp('true'); // false
  * </pre>
  *
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>

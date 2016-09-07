@@ -7,15 +7,15 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace P;
+namespace p;
 
 /**
  * Predicate that x is a scalar
  *
  * Example of usage:
  * <pre>
- * \P\scalarp('Hello World!'); // true
- * \P\scalarp([1,2,true]); // false
+ * \p\scalarp('Hello World!'); // true
+ * \p\scalarp([1,2,true]); // false
  * </pre>
  *
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>

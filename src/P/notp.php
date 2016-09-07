@@ -7,13 +7,13 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace P;
+namespace p;
 
 /**
  * Composed predicate that represents the logical negation of the other predicate.
  *
  * <pre>
- * $p = \P\notp('P\intp');
+ * $p = \p\notp('p\intp');
  * $p(1.22); // true
  * $p(1); // false
  * </pre>

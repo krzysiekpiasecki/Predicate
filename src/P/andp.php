@@ -7,16 +7,16 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace P;
+namespace p;
 
 /**
  * Composed predicate that represents a short-circuiting logical AND
  *
  * Example of usage:
  * <pre>
- * $p = \P\andp(
- *    'P\intp',
- *    'P\evenp',
+ * $p = \p\andp(
+ *    'p\intp',
+ *    'p\evenp',
  * );
  *
  * $p(2); // true

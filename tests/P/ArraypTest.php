@@ -7,7 +7,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace P;
+namespace p;
 
 /**
  * Test {@see arrayp}.
@@ -19,7 +19,7 @@ namespace P;
 class ArraypTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @covers ::\P\arrayp
+     * @covers ::\p\arrayp
      */
     public function testArrayp()
     {

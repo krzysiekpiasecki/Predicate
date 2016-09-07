@@ -7,15 +7,15 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace P;
+namespace p;
 
 /**
  * Predicate that x is a null
  *
  * Example of usage:
  * <pre>
- * \P\nullp(null); // true
- * \P\nullp(false); // false
+ * \p\nullp(null); // true
+ * \p\nullp(false); // false
  * </pre>
  *
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>

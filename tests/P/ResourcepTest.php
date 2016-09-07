@@ -19,7 +19,7 @@ namespace P;
 class ResourcepTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @covers ::\P\resourcep
+     * @covers ::\p\resourcep
      */
     public function testResourceP()
     {

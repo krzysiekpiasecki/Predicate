@@ -7,15 +7,15 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace P;
+namespace p;
 
 /**
  * Predicate that x is a string
  *
  * Example of usage:
  * <pre>
- * \P\stringp('Hello World!'); // true
- * \P\intp(1.22); // false
+ * \p\stringp('Hello World!'); // true
+ * \p\intp(1.22); // false
  * </pre>
  *
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>

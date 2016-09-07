@@ -7,16 +7,16 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace P;
+namespace p;
 
 /**
  * Composed predicate that represents a short-circuiting logical OR.
  *
  * Example of usage:
  * <pre>
- * $p = \P\orp(
- *    'P\intp',
- *    'P\stringp',
+ * $p = \p\orp(
+ *    'p\intp',
+ *    'p\stringp',
  * );
  *
  * $p(2); // true

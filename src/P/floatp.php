@@ -7,15 +7,15 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace P;
+namespace p;
 
 /**
  * Predicate that x is a float
  *
  * Example of usage:
  * <pre>
- * \P\floatp(1.22); // true
- * \P\floatp('1.22'); // false
+ * \p\floatp(1.22); // true
+ * \p\floatp('1.22'); // false
  * </pre>
  *
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>

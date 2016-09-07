@@ -7,15 +7,15 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace P;
+namespace p;
 
 /**
  * Predicate that x is a resource
  *
  * Example of usage:
  * <pre>
- * \P\resourcep(tmpfile()); // true
- * \P\resourcep(__FILE__); // false
+ * \p\resourcep(tmpfile()); // true
+ * \p\resourcep(__FILE__); // false
  * </pre>
  *
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>

@@ -7,7 +7,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace P;
+namespace p;
 
 /**
  * Test {@see equalp}.
@@ -19,7 +19,7 @@ namespace P;
 class EqualpTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @covers ::\P\equalp
+     * @covers ::\p\equalp
      */
     public function testEqualp()
     {

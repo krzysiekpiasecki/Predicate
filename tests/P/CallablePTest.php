@@ -7,7 +7,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace P;
+namespace p;
 
 /**
  * Test {@see callablep}.
@@ -19,12 +19,12 @@ namespace P;
 class CallablePTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @covers ::\P\callablep
+     * @covers ::\p\callablep
      */
     public function testCallablep()
     {
         $this->assertTrue(callablep('is_string'));
-        $this->assertTrue(callablep('P\callablep'));
+        $this->assertTrue(callablep('p\callablep'));
         $this->assertTrue(callablep([$this, 'testCallablep']));
         $this->assertFalse(callablep('callablep'));
     }

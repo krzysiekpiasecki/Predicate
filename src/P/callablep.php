@@ -7,15 +7,15 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace P;
+namespace p;
 
 /**
  * Predicate that x is a callable
  *
  * Example of usage:
  * <pre>
- * \P\callablep('is_string'); // true
- * \P\callablep(new \stdClass); // false
+ * \p\callablep('is_string'); // true
+ * \p\callablep(new \stdClass); // false
  * </pre>
  *
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>

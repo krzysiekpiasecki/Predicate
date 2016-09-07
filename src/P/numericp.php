@@ -7,18 +7,18 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace P;
+namespace p;
 
 /**
  * Predicate that x is a numeric value
  *
  * Example of usage:
  * <pre>
- * \P\numericp('123.23'); // true
- * \P\numericp('0xfff'); // true
- * \P\numericp(1); // true
- * \P\numericp(1.22); // true
- * \P\numericp('a1000'); // false
+ * \p\numericp('123.23'); // true
+ * \p\numericp('0xfff'); // true
+ * \p\numericp(1); // true
+ * \p\numericp(1.22); // true
+ * \p\numericp('a1000'); // false
  * </pre>
  *
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>

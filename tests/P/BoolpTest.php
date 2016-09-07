@@ -7,7 +7,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace P;
+namespace p;
 
 /**
  * Test {@see boolp}.
@@ -19,7 +19,7 @@ namespace P;
 class BoolpTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @covers ::\P\boolp
+     * @covers ::\p\boolp
      */
     public function testBoolp()
     {

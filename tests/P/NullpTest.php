@@ -7,7 +7,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace P;
+namespace p;
 
 /**
  * Test {@see nullp}.
@@ -19,7 +19,7 @@ namespace P;
 class NullpTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @covers ::\P\nullp
+     * @covers ::\p\nullp
      */
     public function testNullp()
     {

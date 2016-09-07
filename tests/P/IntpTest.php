@@ -7,7 +7,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace P;
+namespace p;
 
 /**
  * Test {@see intp}.
@@ -19,7 +19,7 @@ namespace P;
 class IntpTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @covers ::\P\intp
+     * @covers ::\p\intp
      */
     public function testIntp()
     {

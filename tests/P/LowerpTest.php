@@ -7,7 +7,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace P;
+namespace p;
 
 /**
  * Test {@see lowerp}.
@@ -19,7 +19,7 @@ namespace P;
 class LowerpTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @covers ::\P\lowerp
+     * @covers ::\p\lowerp
      */
     public function testLowerp()
     {

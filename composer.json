@@ -26,6 +26,6 @@
   },
   "autoload": {
     "psr-4": {"Predicate\\": ["src/Predicate", "tests/Predicate"]},
-    "files": ["src\\P\\autoload.php"]
+    "files": ["src\\p\\autoload.php"]
   }
 }

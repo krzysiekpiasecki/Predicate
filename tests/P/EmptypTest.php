@@ -7,7 +7,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace P;
+namespace p;
 
 /**
  * Test {@see emptyp}.
@@ -19,7 +19,7 @@ namespace P;
 class EmptypTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @covers ::\P\emptyp
+     * @covers ::\p\emptyp
      */
     public function testEmptyp()
     {

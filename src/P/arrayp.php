@@ -7,15 +7,15 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace P;
+namespace p;
 
 /**
  * Predicate that x is an array
  *
  * Example of usage:
  * <pre>
- * \P\arrayp([1, true]); // true
- * \P\arrayp(12.23); // false
+ * \p\arrayp([1, true]); // true
+ * \p\arrayp(12.23); // false
  * </pre>
  *
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>

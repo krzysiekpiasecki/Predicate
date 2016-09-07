@@ -7,15 +7,15 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace P;
+namespace p;
 
 /**
  * Predicate that both arguments are equal.
  *
  * Example of usage:
  * <pre>
- * \P\equalp(1, '1'); // true
- * \P\samep(1, 1.2); // false
+ * \p\equalp(1, '1'); // true
+ * \p\samep(1, 1.2); // false
  * </pre>
  *
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>

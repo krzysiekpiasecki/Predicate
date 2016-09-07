@@ -7,7 +7,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace P;
+namespace p;
 
 /**
  * Test {@see andp}.
@@ -19,43 +19,43 @@ namespace P;
 class AndPTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @covers ::\P\andp
+     * @covers ::\p\andp
      */
     public function testAndp()
     {
         $this->assertTrue(
             andp(
-                'P\stringp',
-                'P\lowerp'
+                'p\stringp',
+                'p\lowerp'
             )('hello')
         );
         $this->assertFalse(
             andp(
-                'P\stringp',
-                'P\lowerp'
+                'p\stringp',
+                'p\lowerp'
             )('Hello')
         );
     }
 
     /**
-     * @covers ::\P\andp
+     * @covers ::\p\andp
      * @expectedException \RuntimeException
      */
     public function testAndpBreak()
     {
         $this->assertTrue(
             andp(
-                'P\stringp',
+                'p\stringp',
                 function (string $x): bool {
                     throw new \RuntimeException;
                 },
-                'P\lowerp'
+                'p\lowerp'
             )('hello')
         );
     }
 
     /**
-     * @covers ::\P\andp
+     * @covers ::\p\andp
      */
     public function testAndpTransferArgs()
     {

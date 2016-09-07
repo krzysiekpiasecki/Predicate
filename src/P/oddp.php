@@ -7,15 +7,15 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace P;
+namespace p;
 
 /**
  * Predicate that x is an odd number
  *
  * Example of usage:
  * <pre>
- * \P\oddp(3); // true
- * \P\oddp(2); // false
+ * \p\oddp(3); // true
+ * \p\oddp(2); // false
  * </pre>
  *
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>

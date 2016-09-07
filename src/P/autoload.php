@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace P;
+namespace p;
 
 array_map(function (string $p) {
     require_once(

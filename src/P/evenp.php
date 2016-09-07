@@ -7,15 +7,15 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace P;
+namespace p;
 
 /**
  * Predicate that x is an even number
  *
  * Example of usage:
  * <pre>
- * \P\evenp(2); // true
- * \P\evenp(3); // false
+ * \p\evenp(2); // true
+ * \p\evenp(3); // false
  * </pre>
  *
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>

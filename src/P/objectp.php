@@ -7,15 +7,15 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace P;
+namespace p;
 
 /**
  * Predicate that x is an object
  *
  * Example of usage:
  * <pre>
- * \P\objectp(new \stdClass); // true
- * \P\objectp('\stdClass'); // false
+ * \p\objectp(new \stdClass); // true
+ * \p\objectp('\stdClass'); // false
  * </pre>
  *
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
