@@ -7,24 +7,24 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace p;
+namespace p\str;
 
 /**
- * Predicate that x is an odd number
+ * Predicate that x is an uppercase string
  *
  * Example of usage:
  * <pre>
- * \p\oddp(3); // true
- * \p\oddp(2); // false
+ * \p\str\upperp('HELLO'); // true
+ * \p\str\upperp('Hello'); // false
  * </pre>
  *
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
  * @package p
  * @since 1.0
- * @param mixed $x Predicate argument
+ * @param string $x Predicate argument
  * @return bool May be true or false depending on the x argument
  */
-function oddp(int $x): bool
+function upperp(string $x): bool
 {
-    return 0 !== ($x % 2);
+    return ctype_upper($x);
 }

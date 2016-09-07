@@ -7,23 +7,23 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace P;
+namespace p\num;
 
 /**
- * Test {@see upperp}.
+ * Test {@see oddp}.
  *
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
  * @package p
  * @since 1.0
  */
-class UpperpTest extends \PHPUnit_Framework_TestCase
+class OddpTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @covers ::\p\upperp
+     * @covers ::\p\oddp
      */
-    public function testUpperp()
+    public function testOddp()
     {
-        $this->assertTrue(upperp('HELLO'));
-        $this->assertFalse(upperp('HELLo'));
+        $this->assertTrue(oddp(1));
+        $this->assertFalse(oddp(2));
     }
 }

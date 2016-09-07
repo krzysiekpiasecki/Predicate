@@ -25,7 +25,10 @@
     "phing/phing": "^2.1"
   },
   "autoload": {
-    "psr-4": {"Predicate\\": ["src/Predicate", "tests/Predicate"]},
+    "psr-4": {
+      "Predicate\\": "src/Predicate", 
+      "p\\": "src/p"
+    },
     "files": ["src\\p\\autoload.php"]
   }
 }

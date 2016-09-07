@@ -7,24 +7,24 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace p;
+namespace p\str;
 
 /**
- * Predicate that x is a lowercase string
+ * Predicate that x is a char
  *
  * Example of usage:
  * <pre>
- * \p\lowerp('hello'); // true
- * \p\lowerp('Hello'); // false
+ * \p\charp('H'); // true
+ * \p\charp('Hello'); // false
  * </pre>
  *
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
  * @package p
  * @since 1.0
- * @param string $x Predicate argument
+ * @param mixed $x Predicate argument
  * @return bool May be true or false depending on the x argument
  */
-function lowerp(string $x): bool
+function charp($x): bool
 {
-    return ctype_lower($x);
+    return true === is_string($x) && 1 === mb_strlen($x);
 }

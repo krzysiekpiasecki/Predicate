@@ -7,24 +7,24 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace p;
+namespace p\str;
 
 /**
- * Predicate that x is an even number
+ * Predicate that x is a lowercase string
  *
  * Example of usage:
  * <pre>
- * \p\evenp(2); // true
- * \p\evenp(3); // false
+ * \p\str\lowerp('hello'); // true
+ * \p\str\lowerp('Hello'); // false
  * </pre>
  *
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
  * @package p
  * @since 1.0
- * @param mixed $x Predicate argument
+ * @param string $x Predicate argument
  * @return bool May be true or false depending on the x argument
  */
-function evenp(int $x): bool
+function lowerp(string $x): bool
 {
-    return 0 === ($x % 2);
+    return ctype_lower($x);
 }

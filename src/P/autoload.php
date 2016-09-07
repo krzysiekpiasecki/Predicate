@@ -2,7 +2,12 @@
 
 declare(strict_types=1);
 
-namespace p;
+require_once 'str/lowerp.php';
+require_once 'str/upperp.php';
+require_once 'str/charp.php';
+require_once 'num/evenp.php';
+require_once 'num/oddp.php';
+
 
 array_map(function (string $p) {
     require_once(
@@ -26,13 +31,8 @@ array_map(function (string $p) {
     'objectp',
     'resourcep',
     'stringp',
-    'charp',
     'scalarp',
     'numericp',
     'emptyp',
-    'callablep',
-    'upperp',
-    'lowerp',
-    'evenp',
-    'oddp'
+    'callablep'
 ));

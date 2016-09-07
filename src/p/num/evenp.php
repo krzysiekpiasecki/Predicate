@@ -7,15 +7,15 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace p;
+namespace p\num;
 
 /**
- * Predicate that x is a char
+ * Predicate that x is an even number
  *
  * Example of usage:
  * <pre>
- * \p\charp('H'); // true
- * \p\charp('Hello'); // false
+ * \p\evenp(2); // true
+ * \p\evenp(3); // false
  * </pre>
  *
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
@@ -24,7 +24,7 @@ namespace p;
  * @param mixed $x Predicate argument
  * @return bool May be true or false depending on the x argument
  */
-function charp($x): bool
+function evenp(int $x): bool
 {
-    return true === is_string($x) && 1 === mb_strlen($x);
+    return 0 === ($x % 2);
 }

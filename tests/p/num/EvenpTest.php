@@ -7,23 +7,23 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace P;
+namespace p\num;
 
 /**
- * Test {@see lowerp}.
+ * Test {@see evenp}.
  *
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
  * @package p
  * @since 1.0
  */
-class LowerpTest extends \PHPUnit_Framework_TestCase
+class EvenpTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @covers ::\p\lowerp
+     * @covers ::\p\evenp
      */
-    public function testLowerp()
+    public function testEvenp()
     {
-        $this->assertTrue(lowerp('hello'));
-        $this->assertFalse(lowerp('heLlo'));
+        $this->assertTrue(evenp(2));
+        $this->assertFalse(evenp(3));
     }
 }
