@@ -10,22 +10,20 @@ declare(strict_types=1);
 namespace p\str;
 
 /**
- * Test {@see charp}.
+ * Test {@see alnump}.
  *
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
  * @package p
  * @since 1.0
  */
-class CharpTest extends \PHPUnit_Framework_TestCase
+class AlnumpTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @covers ::\p\str\charp
+     * @covers ::\p\str\alnump
      */
-    public function testCharp()
+    public function testAlnump()
     {
-        $this->assertFalse(charp('Hello World!'));
-        $this->assertFalse(charp(1));
-        $this->assertTrue(charp('h'));
-        $this->assertTrue(charp('1'));
+        $this->assertTrue(alnump('0123456789asdfz'));
+        $this->assertFalse(alnump('asdfasdfą'));
     }
 }

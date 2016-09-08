@@ -10,22 +10,20 @@ declare(strict_types=1);
 namespace p\str;
 
 /**
- * Test {@see charp}.
+ * Test {@see digitp}.
  *
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
  * @package p
  * @since 1.0
  */
-class CharpTest extends \PHPUnit_Framework_TestCase
+class DigitpTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @covers ::\p\str\charp
+     * @covers ::\p\str\digitp
      */
-    public function testCharp()
+    public function testDigitp()
     {
-        $this->assertFalse(charp('Hello World!'));
-        $this->assertFalse(charp(1));
-        $this->assertTrue(charp('h'));
-        $this->assertTrue(charp('1'));
+        $this->assertTrue(digitp('0123456789'));
+        $this->assertFalse(digitp('x0123456789'));
     }
 }

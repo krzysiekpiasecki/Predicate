@@ -10,22 +10,20 @@ declare(strict_types=1);
 namespace p\str;
 
 /**
- * Test {@see charp}.
+ * Test {@see alphap}.
  *
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
  * @package p
  * @since 1.0
  */
-class CharpTest extends \PHPUnit_Framework_TestCase
+class AlphapTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @covers ::\p\str\charp
+     * @covers ::\p\str\alphap
      */
-    public function testCharp()
+    public function testAlphap()
     {
-        $this->assertFalse(charp('Hello World!'));
-        $this->assertFalse(charp(1));
-        $this->assertTrue(charp('h'));
-        $this->assertTrue(charp('1'));
+        $this->assertTrue(alphap('asdf'));
+        $this->assertFalse(alphap('asdf1975'));
     }
 }
