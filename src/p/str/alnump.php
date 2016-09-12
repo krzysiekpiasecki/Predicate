@@ -10,26 +10,22 @@ declare(strict_types=1);
 namespace p\str;
 
 /**
- * Predicate that x is a char
+ * Predicate that x is an alphanumeric string
  *
  * Example of usage:
  * <pre>
-<<<<<<< HEAD
- * p\str\charp('H'); // true
- * p\str\charp('Hello'); // false
-=======
- * \p\str\charp('H'); // true
- * \p\str\charp('Hello'); // false
->>>>>>> 12539ee8105ce72c812f56059a239d8c706ce9b6
+ * \p\str\alnum('qwerty1234567890'); // true
+ * \p\str\alnum('Grzegrzółka2345890345'); // false
  * </pre>
  *
+ * @link http://php.net/manual/en/function.ctype-alnum.php ctype_alnum
  * @author Krzysztof Piasecki <krzysiekpiasecki@gmail.com>
  * @package p
  * @since 1.0
  * @param mixed $x Predicate argument
  * @return bool May be true or false depending on the x argument
  */
-function charp($x): bool
+function alnump(string $x): bool
 {
-    return true === is_string($x) && 1 === mb_strlen($x);
+    return ctype_alnum($x);
 }

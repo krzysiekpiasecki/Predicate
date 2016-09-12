@@ -8,9 +8,12 @@ const floatp = '\p\floatp';
 require_once 'str/lowerp.php';
 require_once 'str/upperp.php';
 require_once 'str/charp.php';
+require_once 'str/alnump.php';
+require_once 'str/alphap.php';
+require_once 'str/digitp.php';
+
 require_once 'num/evenp.php';
 require_once 'num/oddp.php';
-
 
 array_map(function (string $p) {
     require_once(

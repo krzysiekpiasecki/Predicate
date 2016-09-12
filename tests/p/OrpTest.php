@@ -19,32 +19,32 @@ namespace p;
 class OrpTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @covers ::\P\orp
+     * @covers ::\p\orp
      */
     public function testOrp()
     {
         $this->assertTrue(
             orp(
                 'P\stringp',
-                'P\intp'
+                'p\intp'
             )('hello')
         );
         $this->assertTrue(
             orp(
                 'P\stringp',
-                'P\intp'
+                'p\intp'
             )(1)
         );
         $this->assertFalse(
             orp(
                 'P\stringp',
-                'P\intp'
+                'p\intp'
             )(1.22)
         );
     }
 
     /**
-     * @covers ::\P\orp
+     * @covers ::\p\orp
      */
     public function testOrpTransferArgs()
     {

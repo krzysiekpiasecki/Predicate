@@ -19,11 +19,7 @@ namespace p\str;
 class CharpTest extends \PHPUnit_Framework_TestCase
 {
     /**
-<<<<<<< HEAD
-     * @covers ::p\str\charp
-=======
      * @covers ::\p\str\charp
->>>>>>> 12539ee8105ce72c812f56059a239d8c706ce9b6
      */
     public function testCharp()
     {
